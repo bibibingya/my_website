@@ -6,10 +6,9 @@ about:
   links:
     - icon: envelope
       href: mailto:emw016@ucsd.edu
-    - icon: LinkedIn
+    - icon: linkedin
       href: https://www.linkedin.com/in/emma-wu0719/
+    - icon: github
+      href : https://github.com/bibibingya
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
