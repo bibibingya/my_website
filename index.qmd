@@ -10,5 +10,8 @@ about:
       href: https://www.linkedin.com/in/emma-wu0719/
     - icon: github
       href : https://github.com/bibibingya
----
 
+I'm a Master of Science in Business Analytics (MSBA) candidate at UC San Diego – Rady School of Management, expected to graduate in December 2025. I am passionate about leveraging data and analytics to drive actionable business insights.
+
+With a background in Fashion Marketing and experience in statistical analysis, visualization, and machine learning, I aim to bring creative problem-solving and data-driven strategies to organizations across industries.
+---
