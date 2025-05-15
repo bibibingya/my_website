@@ -46,6 +46,6 @@
     "href": "index.html#education",
     "title": "Emma Wu",
     "section": "Education",
-    "text": "Education\n\n\n\n\nMaster of Science in Business Analytics University of California, San Diego (Aug 2024 – Dec 2025)\n\n\n\n\n\nBachelor of Science in Fashion Marketing Fu Jen Catholic University, Taiwan (Sep 2020 – Jun 2024)"
+    "text": "Education\n\n\n&lt;img src=\"images/ucsd.png\" width=\"100\" /&gt;\n&lt;p&gt;&lt;strong&gt;Master of Science in Business Analytics&lt;/strong&gt;&lt;br&gt;\n&lt;em&gt;University of California, San Diego&lt;/em&gt;&lt;br&gt;\n&lt;span style=\"font-size: 0.9em;\"&gt;(Aug 2024 – Dec 2025)&lt;/span&gt;&lt;/p&gt;\n\n\n&lt;img src=\"images/fju.png\" width=\"100\" /&gt;\n&lt;p&gt;&lt;strong&gt;Bachelor of Science in Fashion Marketing&lt;/strong&gt;&lt;br&gt;\n&lt;em&gt;Fu Jen Catholic University, Taiwan&lt;/em&gt;&lt;br&gt;\n&lt;span style=\"font-size: 0.9em;\"&gt;(Sep 2020 – Jun 2024)&lt;/span&gt;&lt;/p&gt;"
   }
 ]
