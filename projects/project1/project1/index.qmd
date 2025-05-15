@@ -1,18 +1,6 @@
-# Music Streaming Platform Industry Market Research
-
-## Section 1: Data
-
-I cleaned some data
-
-## Section 2: Analysis
-
-I analyzed the data
-
-```{r}
-#| message: false
-
-library(tidyverse)
-mtcars |>
-  ggplot(aes(x=wt, y=mpg))+
-  geom_point()
-|
+---
+title: "Music Streaming Platform Industry Market Research"
+description: "Analyzed the 2023 music app landscape and consumer behavior."
+date: 2023-05-20
+categories: [SQL, Tableau]
+---

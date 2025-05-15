@@ -4,7 +4,7 @@ listing:
   contents: projects
   type: grid
   sort: "date desc"
-  categories: true
   filter-ui: true
-  fields: [title, description, date, categories]
+  categories: true
+  fields: [title, description, categories]
 ---

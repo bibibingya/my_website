@@ -29,7 +29,28 @@ With a background in Fashion Marketing and experience in statistical analysis, v
 <div style="text-align: center; max-width: 250px;">
   <img src="images/fju.png" width="100" />
   <p><strong>Bachelor of Science in Fashion Marketing</strong><br>
-  <em>Fu Jen Catholic University, Taiwan</em><br>
+  <em>Fu-Jen Catholic University, Taiwan</em><br>
+  <span style="font-size: 0.9em;">(Sep 2020 – Jun 2024)</span></p>
+</div>
+
+</div>
+
+## Experience
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 3rem; margin: 2em 0;">
+
+<div style="text-align: center; max-width: 250px;">
+  <img src="images/data_logo.png" width="100" />
+  <p><strong>Data Analyst Internship</strong><br>
+  <em>MIRDC - Optical & Semiconductor Equipment Industry Office</em><br>
+  <span style="font-size: 0.9em;">(Sep 2023 – June 2024)</span></p>
+  <span style="font-size: 1em;">As a data analysis intern, I worked on transforming raw information into actionable insights through statistical analysis. I built over 50 visualizations to support strategic decision-making and collaborated with cross-functional teams to address key business questions — contributing to a 10% improvement in project outcomes. I also supported bilingual communication (English/Mandarin) across 20+ client accounts, helping expand the international customer base by 10% and shortening project timelines by 15%.</span></p>
+</div>
+
+<div style="text-align: center; max-width: 250px;">
+  <img src="images/education_logo.png" width="100" />
+  <p><strong>Tutoring Assistant</strong><br>
+  <em>Qing-Xue Language & Science Learning School</em><br>
   <span style="font-size: 0.9em;">(Sep 2020 – Jun 2024)</span></p>
 </div>
 

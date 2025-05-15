@@ -4,7 +4,7 @@
     "href": "blog.html",
     "title": "My Projects",
     "section": "",
-    "text": "Music Streaming Platform Industry Market Research\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Music Streaming Platform Industry Market Research\n\n\n\nSQL\n\n\nTableau\n\n\n\nAnalyzed the 2023 music app landscape and consumer behavior.\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "resume.html",
@@ -12,27 +12,6 @@
     "title": "Resume",
     "section": "",
     "text": "Download PDF file."
-  },
-  {
-    "objectID": "projects/project1/project1/index.html",
-    "href": "projects/project1/project1/index.html",
-    "title": "Music Streaming Platform Industry Market Research",
-    "section": "",
-    "text": "I cleaned some data\n\n\n\nI analyzed the data\n#| message: false\nlibrary(tidyverse) mtcars |&gt; ggplot(aes(x=wt, y=mpg))+ geom_point() |"
-  },
-  {
-    "objectID": "projects/project1/project1/index.html#section-1-data",
-    "href": "projects/project1/project1/index.html#section-1-data",
-    "title": "Music Streaming Platform Industry Market Research",
-    "section": "",
-    "text": "I cleaned some data"
-  },
-  {
-    "objectID": "projects/project1/project1/index.html#section-2-analysis",
-    "href": "projects/project1/project1/index.html#section-2-analysis",
-    "title": "Music Streaming Platform Industry Market Research",
-    "section": "",
-    "text": "I analyzed the data\n#| message: false\nlibrary(tidyverse) mtcars |&gt; ggplot(aes(x=wt, y=mpg))+ geom_point() |"
   },
   {
     "objectID": "index.html",
@@ -46,6 +25,13 @@
     "href": "index.html#education",
     "title": "Emma Wu",
     "section": "Education",
-    "text": "Education\n\n\n\n\nMaster of Science in Business Analytics University of California, San Diego (Aug 2024 – Dec 2025)\n\n\n\n\n\nBachelor of Science in Fashion Marketing Fu Jen Catholic University, Taiwan (Sep 2020 – Jun 2024)"
+    "text": "Education\n\n\n\n\nMaster of Science in Business Analytics University of California, San Diego (Aug 2024 – Dec 2025)\n\n\n\n\n\nBachelor of Science in Fashion Marketing Fu-Jen Catholic University, Taiwan (Sep 2020 – Jun 2024)"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Emma Wu",
+    "section": "Experience",
+    "text": "Experience\n\n\n\n\nData Analyst Internship MIRDC - Optical & Semiconductor Equipment Industry Office (Sep 2023 – June 2024)\n\nAs a data analysis intern at MIRDC, I worked on transforming raw information into actionable insights through statistical analysis. I built over 50 visualizations to support strategic decision-making and collaborated with cross-functional teams to address key business questions — contributing to a 10% improvement in project outcomes. I also supported bilingual communication (English/Mandarin) across 20+ client accounts, helping expand the international customer base by 10% and shortening project timelines by 15%.\n\n\n\n\n\nTutoring Assistant Qing-Xue Language & Science Learning School (Sep 2020 – Jun 2024)"
   }
 ]
