@@ -1,4 +1,4 @@
-# Project 1
+# Music Streaming Platform Industry Market Research
 
 ## Section 1: Data
 

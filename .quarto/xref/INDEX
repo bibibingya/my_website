@@ -25,5 +25,14 @@
   },
   "blog/project1/project2/index.qmd": {
     "index.html": "357e6362"
+  },
+  "projects/project1/project1/index.qmd": {
+    "index.html": "c968b45f"
+  },
+  "projects/project1/project2/index.qmd": {
+    "index.html": "0d2aea56"
+  },
+  "project.qmd": {
+    "project.html": "dbb21fef"
   }
 }

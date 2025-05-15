@@ -1,8 +1,10 @@
 ---
 title: "My Projects"
 listing:
-  contents: blog
+  contents: projects
   type: grid
   sort: "date desc"
-  categories: false
+  categories: true
+  filter-ui: true
+  fields: [title, description, date, categories]
 ---
