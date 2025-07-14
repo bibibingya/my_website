@@ -34,5 +34,23 @@
   },
   "project.qmd": {
     "project.html": "dbb21fef"
+  },
+  "emw_marketing_analytics/resume.qmd": {
+    "resume.html": "4311c372"
+  },
+  "emw_marketing_analytics/index.qmd": {
+    "index.html": "2614b0b7"
+  },
+  "emw_marketing_analytics/blog/project1/index.qmd": {
+    "index.html": "421fbf36"
+  },
+  "emw_marketing_analytics/blog/project3/index.qmd": {
+    "index.html": "d71e919b"
+  },
+  "emw_marketing_analytics/blog/project2/index.qmd": {
+    "index.html": "04deaf9d"
+  },
+  "emw_marketing_analytics/blog.qmd": {
+    "blog.html": "82a393f7"
   }
 }
