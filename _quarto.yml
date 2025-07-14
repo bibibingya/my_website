@@ -18,5 +18,5 @@ format:
   html:
     theme: cosmo
     css: styles.css
-    googlefonts: ["Figtree", "Open Sans"]
     toc: true
+    googlefonts: ["Nunito Sans", "Inter"]
