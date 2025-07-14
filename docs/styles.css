@@ -1,1 +1,66 @@
-/* css styles */
+/* --- Global Layout --- */
+body {
+  background-color: #fdfaf6; /* 米白色 */
+  color: #2d2d2d;
+  font-family: 'Lato', sans-serif;
+}
+
+/* --- Headings --- */
+h1, h2, h3, h4, .navbar-title {
+  font-family: 'Poppins', sans-serif;
+  color: #1e3a8a !important; /* 深藍色 */
+}
+
+/* --- Links --- */
+a {
+  color: #2563eb; /* 藍色 */
+  font-weight: 500;
+}
+
+a:hover {
+  color: #1d4ed8;
+  text-decoration: underline;
+}
+
+/* --- Navigation Bar --- */
+.navbar {
+  background-color: #fdfaf6 !important;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.navbar a {
+  color: #1e3a8a !important;
+}
+
+.navbar a:hover {
+  color: #1d4ed8 !important;
+}
+
+/* --- Section Spacing --- */
+section {
+  margin-bottom: 3rem;
+}
+
+/* --- Cards (Experience / Projects / Skills) --- */
+.card {
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 1.5rem;
+  max-width: 300px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.card img {
+  margin-bottom: 0.5rem;
+}
+
+/* --- Footer or CTA Section (Optional) --- */
+.footer {
+  background-color: #f9f6f1;
+  color: #2d2d2d;
+  padding: 2rem 0;
+  text-align: center;
+  font-size: 0.9em;
+}

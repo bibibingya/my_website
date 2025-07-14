@@ -5,13 +5,5 @@
       "/projects/project1/project2/index.html",
       "/projects/project1/project1/index.html"
     ]
-  },
-  {
-    "listing": "/emw_marketing_analytics/blog.html",
-    "items": [
-      "/emw_marketing_analytics/blog/project3/index.html",
-      "/emw_marketing_analytics/blog/project2/index.html",
-      "/emw_marketing_analytics/blog/project1/index.html"
-    ]
   }
 ]

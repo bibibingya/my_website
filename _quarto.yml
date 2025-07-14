@@ -12,14 +12,11 @@ website:
         text: Resume
       - href: blog.qmd
         text: Projects
+  page-navigation: true
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: cosmo
     css: styles.css
+    googlefonts: ["Figtree", "Open Sans"]
     toc: true
-
-
-
