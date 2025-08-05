@@ -4,7 +4,7 @@
     "href": "blog.html",
     "title": "My Projects",
     "section": "",
-    "text": "Exploring Consumer Behaviors between Eastern and Western Countries in Sustainable Fashion\n\n\n\nPython\n\n\nSQL\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMusic Streaming Platform Industry Market Research\n\n\n\nSQL\n\n\nTableau\n\n\n\nAnalyzed the 2023 music app landscape and consumer behavior.\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Exploring Consumer Behavior Across Cultures\n\n\n\nPython\n\n\nSmartPLS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExploring Consumer Behavior Across Cultures\n\n\n\nPython\n\n\nSmartPLS\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "resume.html",
@@ -14,46 +14,46 @@
     "text": "Download PDF file."
   },
   {
-    "objectID": "projects/project1/bachelor_thesis/index.html",
-    "href": "projects/project1/bachelor_thesis/index.html",
-    "title": "Exploring Consumer Behaviors between Eastern and Western Countries in Sustainable Fashion",
+    "objectID": "projects/bechelor_thesis/index.html",
+    "href": "projects/bechelor_thesis/index.html",
+    "title": "Exploring Consumer Behavior Across Cultures",
     "section": "",
-    "text": "This study explored how consumer behavior varies between Taiwanese and American participants, with a focus on sustainable fashion adoption. The goal was to identify what drives engagement and how cultural dimensions moderate these effects."
+    "text": "This project analyzes the behavioral differences between Eastern and Western consumers—specifically Taiwanese and American—toward sustainable fashion. Using SMARTPLS, it models how ESG awareness, environmental consciousness, and cultural dimensions influence consumers’ intentions to engage in sustainable fashion practices."
   },
   {
-    "objectID": "projects/project1/bachelor_thesis/index.html#introduction",
-    "href": "projects/project1/bachelor_thesis/index.html#introduction",
-    "title": "Exploring Consumer Behaviors between Eastern and Western Countries in Sustainable Fashion",
+    "objectID": "projects/bechelor_thesis/index.html#summary",
+    "href": "projects/bechelor_thesis/index.html#summary",
+    "title": "Exploring Consumer Behavior Across Cultures",
     "section": "",
-    "text": "This study explored how consumer behavior varies between Taiwanese and American participants, with a focus on sustainable fashion adoption. The goal was to identify what drives engagement and how cultural dimensions moderate these effects."
+    "text": "This project analyzes the behavioral differences between Eastern and Western consumers—specifically Taiwanese and American—toward sustainable fashion. Using SMARTPLS, it models how ESG awareness, environmental consciousness, and cultural dimensions influence consumers’ intentions to engage in sustainable fashion practices."
   },
   {
-    "objectID": "projects/project1/bachelor_thesis/index.html#key-research-focus",
-    "href": "projects/project1/bachelor_thesis/index.html#key-research-focus",
-    "title": "Exploring Consumer Behaviors between Eastern and Western Countries in Sustainable Fashion",
+    "objectID": "projects/bechelor_thesis/index.html#key-research-focus",
+    "href": "projects/bechelor_thesis/index.html#key-research-focus",
+    "title": "Exploring Consumer Behavior Across Cultures",
     "section": "Key Research Focus",
     "text": "Key Research Focus\n\nVariables examined:\n\nEnvironmental Consciousness\nValue Equity\nBrand ESG Awareness\nPurchase Intention in Sustainable Fashion\n\nCultural Dimensions (based on Hofstede’s theory):\n\nIndividualism vs. Collectivism\n\nUncertainty Avoidance\n\nPower Distance\n\nLong-/Short-term Orientation"
   },
   {
-    "objectID": "projects/project1/bachelor_thesis/index.html#methodology",
-    "href": "projects/project1/bachelor_thesis/index.html#methodology",
-    "title": "Exploring Consumer Behaviors between Eastern and Western Countries in Sustainable Fashion",
+    "objectID": "projects/bechelor_thesis/index.html#methodology",
+    "href": "projects/bechelor_thesis/index.html#methodology",
+    "title": "Exploring Consumer Behavior Across Cultures",
     "section": "Methodology",
     "text": "Methodology\n\n\n\nElement\nDetail\n\n\n\n\nSample\n200 respondents (Taiwan & USA)\n\n\nAge Range\n18–35 (Millennials & Gen Z)\n\n\nTool Used\nSMARTPLS (PLS-SEM Modeling)\n\n\nDesign\nQuantitative Cross-Sectional Survey"
   },
   {
-    "objectID": "projects/project1/bachelor_thesis/index.html#research-framework",
-    "href": "projects/project1/bachelor_thesis/index.html#research-framework",
-    "title": "Exploring Consumer Behaviors between Eastern and Western Countries in Sustainable Fashion",
+    "objectID": "projects/bechelor_thesis/index.html#research-framework",
+    "href": "projects/bechelor_thesis/index.html#research-framework",
+    "title": "Exploring Consumer Behavior Across Cultures",
     "section": "Research Framework",
-    "text": "Research Framework\n\nThe model investigates how cultural dimensions moderate the influence of consumer behavior variables on sustainable fashion intent."
+    "text": "Research Framework\n\nThe model investigates how cultural dimensions moderate the influence of consumer behavior variables on sustainable fashion intent.\n\n\n\n\nResearch Framework Diagram"
   },
   {
-    "objectID": "projects/project1/bachelor_thesis/index.html#results-summary",
-    "href": "projects/project1/bachelor_thesis/index.html#results-summary",
-    "title": "Exploring Consumer Behaviors between Eastern and Western Countries in Sustainable Fashion",
-    "section": "Results Summary",
-    "text": "Results Summary\n\nTop influencing factor:\nBrand ESG awareness strongly predicts sustainable fashion intent, especially in the US group.\nOther findings:\n\nTaiwanese consumers show slightly higher environmental consciousness.\nAmerican consumers are more influenced by ESG brand messaging.\nSome cultural moderators (e.g., power distance) were not statistically significant."
+    "objectID": "projects/bechelor_thesis/index.html#results",
+    "href": "projects/bechelor_thesis/index.html#results",
+    "title": "Exploring Consumer Behavior Across Cultures",
+    "section": "Results",
+    "text": "Results\n\nReliability & Validity\nAll constructs in both groups meet the thresholds for:\n\nReliability: Cronbach’s alpha and composite reliability &gt; 0.7\n\nConvergent Validity: AVE &gt; 0.5\n\nExplanatory Power: R² values range between 0.33 and 0.67, indicating moderate predictive strength\n\nEastern\n\n\n\nFactor\nCronbach’s Alpha\nComposite Reliability\nAVE\nR²\n\n\n\n\nEC\n.843\n.905\n.761\n—\n\n\nVE\n.826\n.896\n.743\n.544\n\n\nBA\n.901\n.925\n.713\n.509\n\n\nIP\n.918\n.938\n.713\n.759\n\n\n\nWestern\n\n\n\nFactor\nCronbach’s Alpha\nComposite Reliability\nAVE\nR²\n\n\n\n\nEC\n.843\n.906\n.762\n—\n\n\nVE\n.783\n.874\n.700\n.374\n\n\nBA\n.909\n.931\n.731\n.428\n\n\nIP\n.873\n.913\n.724\n.614\n\n\n\n\n\n\nDiscriminant Validity\nTo confirm that constructs are distinct from one another, discriminant validity was assessed using the Fornell-Larcker criterion.\nDiagonal values (in bold) represent the square root of AVE, which should be greater than inter-construct correlations.\nEastern\n\n\n\n\nBA\nEC\nIP\nVE\n\n\n\n\nBA\n.844\n\n\n\n\n\nEC\n.714\n.873\n\n\n\n\nIP\n.811\n.754\n.868\n\n\n\nVE\n.750\n.737\n.772\n.862\n\n\n\nWestern\n\n\n\n\nBA\nEC\nIP\nVE\n\n\n\n\nBA\n.855\n\n\n\n\n\nEC\n.639\n.873\n\n\n\n\nIP\n.775\n.579\n.851\n\n\n\nVE\n.776\n.601\n.643\n.836\n\n\n\n\n\nTop influencing factor:\nBrand ESG awareness strongly predicts sustainable fashion intent, especially in the US group.\nOther findings:\n\nTaiwanese consumers show slightly higher environmental consciousness.\nAmerican consumers are more influenced by ESG brand messaging.\nSome cultural moderators (e.g., power distance) were not statistically significant."
   },
   {
     "objectID": "index.html",

@@ -2,8 +2,8 @@
   {
     "listing": "/blog.html",
     "items": [
-      "/projects/project1/bachelor_thesis/index.html",
-      "/projects/project1/music_streaming/index.html"
+      "/projects/bechelor_thesis/index.html",
+      "/projects/music_streaming/index.html"
     ]
   }
 ]

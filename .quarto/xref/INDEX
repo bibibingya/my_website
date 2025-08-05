@@ -58,5 +58,11 @@
   },
   "projects/project1/bachelor_thesis/index.qmd": {
     "index.html": "81353f16"
+  },
+  "projects/bechelor_thesis/index.qmd": {
+    "index.html": "580ac944"
+  },
+  "projects/music_streaming/index.qmd": {
+    "index.html": "bbdbb11c"
   }
 }

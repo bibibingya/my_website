@@ -1,6 +1,0 @@
----
-title: "Music Streaming Platform Industry Market Research"
-description: "Analyzed the 2023 music app landscape and consumer behavior."
-date: 2023-05-20
-categories: [SQL, Tableau]
----

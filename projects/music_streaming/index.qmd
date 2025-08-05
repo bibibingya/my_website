@@ -1,0 +1,6 @@
+---
+title: "Exploring Consumer Behavior Across Cultures"
+author: Emma Wu
+date: 2024-04-01
+categories: [Python, SmartPLS]
+---
