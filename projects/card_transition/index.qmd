@@ -1,0 +1,35 @@
+---
+title: "Card Transition Report"
+author: Emma Wu
+date: 2025-05-12
+categories: [Python]
+---
+## Summary
+
+This project uses machine learning to identify fraudulent credit card transactions from real-world data. The final model achieved strong performance with high business value while requiring minimal manual review.
+
+[Download Full Report (PDF)](card_transition_report.pdf)
+
+## Key Highlights
+
+- **Dataset**: 98,393 transactions, 2.5% fraud  
+- **Goal**: Maximize fraud detection (FDR) at top 3% risk score  
+- **Model**: Tuned XGBoost  
+- **Tooling**: Python, pandas, SMARTPLS, LightGBM, XGBoost
+
+
+## Key Results
+
+- **Fraud detection (FDR@3%)**:  
+  `Train: 80.7%`, `Test: 76.6%`, `OOT: 57.6%`
+- **Estimated savings**: $59.4 million
+- **Review effort**: Only 3% of transactions flagged
+
+
+## Method Summary
+
+- Cleaned and filtered raw data (removed outliers)
+- Engineered 4000+ features (velocity, ratio, digit-based, etc.)
+- Selected top 20 features via forward selection (CatBoost)
+- Compared 5 models → **XGBoost** outperformed others
+- Identified cutoff threshold using financial value curves

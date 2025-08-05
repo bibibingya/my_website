@@ -4,7 +4,7 @@
     "href": "blog.html",
     "title": "My Projects",
     "section": "",
-    "text": "Exploring Consumer Behavior Across Cultures\n\n\n\nPython\n\n\nSmartPLS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExploring Consumer Behavior Across Cultures\n\n\n\nPython\n\n\nSmartPLS\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Card Transition Report\n\n\n\nPython\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSentiment Analysis of Sephora Product Reviews\n\n\n\nPython\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExploring Consumer Behavior Across Cultures\n\n\n\nPython\n\n\nSmartPLS\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "resume.html",
@@ -75,5 +75,40 @@
     "title": "Emma Wu",
     "section": "Experience",
     "text": "Experience\n\n\n\n\nBusiness Analyst TVision (March 2025 – June 2025)\n\nConducted attention and audience analysis across CTV and Linear platforms using 10,000+ rows of historical data, developed predictive models to forecast attentive viewing rates, and delivered a interactive Tableau dashboard to optimize media planning and measure incremental campaign reach.\n\n\n\n\n\nData Analyst Internship MIRDC - Optical & Semiconductor Equipment Industry Office (Sep 2023 – June 2024)\n\nTransformed raw datasets into insights, built 50+ visualizations, and supported bilingual client communication across 20+ accounts.\n\n\n\n\n\nStudent Tutor Qing-Xue Language & Science Learning School (Sep 2020 – Jun 2024)\n\nPresented academic outcomes to clients, streamlined communication between students and teachers, and supported 80% of students in improving their grades."
+  },
+  {
+    "objectID": "projects/card_transition/index.html",
+    "href": "projects/card_transition/index.html",
+    "title": "Card Transition Report",
+    "section": "",
+    "text": "This project uses machine learning to identify fraudulent credit card transactions from real-world data. The final model achieved strong performance with high business value while requiring minimal manual review.\nDownload Full Report (PDF)"
+  },
+  {
+    "objectID": "projects/card_transition/index.html#summary",
+    "href": "projects/card_transition/index.html#summary",
+    "title": "Card Transition Report",
+    "section": "",
+    "text": "This project uses machine learning to identify fraudulent credit card transactions from real-world data. The final model achieved strong performance with high business value while requiring minimal manual review.\nDownload Full Report (PDF)"
+  },
+  {
+    "objectID": "projects/card_transition/index.html#key-highlights",
+    "href": "projects/card_transition/index.html#key-highlights",
+    "title": "Card Transition Report",
+    "section": "Key Highlights",
+    "text": "Key Highlights\n\nDataset: 98,393 transactions, 2.5% fraud\n\nGoal: Maximize fraud detection (FDR) at top 3% risk score\n\nModel: Tuned XGBoost\n\nTooling: Python, pandas, SMARTPLS, LightGBM, XGBoost"
+  },
+  {
+    "objectID": "projects/card_transition/index.html#key-results",
+    "href": "projects/card_transition/index.html#key-results",
+    "title": "Card Transition Report",
+    "section": "Key Results",
+    "text": "Key Results\n\n🎯 Fraud detection (FDR@3%):\nTrain: 80.7%, Test: 76.6%, OOT: 57.6%\n💵 Estimated savings: $59.4 million\n🔎 Review effort: Only 3% of transactions flagged"
+  },
+  {
+    "objectID": "projects/card_transition/index.html#method-summary",
+    "href": "projects/card_transition/index.html#method-summary",
+    "title": "Card Transition Report",
+    "section": "Method Summary",
+    "text": "Method Summary\n\nCleaned and filtered raw data (removed outliers)\nEngineered 4000+ features (velocity, ratio, digit-based, etc.)\nSelected top 20 features via forward selection (CatBoost)\nCompared 5 models → XGBoost outperformed others\nIdentified cutoff threshold using financial value curves"
   }
 ]

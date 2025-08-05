@@ -64,5 +64,11 @@
   },
   "projects/music_streaming/index.qmd": {
     "index.html": "bbdbb11c"
+  },
+  "projects/card_transition/index.qmd": {
+    "index.html": "18bc61cd"
+  },
+  "projects/sentiment_analysis/index.qmd": {
+    "index.html": "535ec621"
   }
 }

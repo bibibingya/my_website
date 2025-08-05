@@ -1,0 +1,8 @@
+---
+title: "Sentiment Analysis of Sephora Product Reviews"
+author: Emma Wu
+date: 2025-02-21
+categories: [Python]
+---
+
+## Summary

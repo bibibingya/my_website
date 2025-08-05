@@ -2,8 +2,9 @@
   {
     "listing": "/blog.html",
     "items": [
-      "/projects/bechelor_thesis/index.html",
-      "/projects/music_streaming/index.html"
+      "/projects/card_transition/index.html",
+      "/projects/sentiment_analysis/index.html",
+      "/projects/bechelor_thesis/index.html"
     ]
   }
 ]
