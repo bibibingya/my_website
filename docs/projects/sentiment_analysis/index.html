@@ -119,6 +119,17 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary">Summary</a></li>
+  <li><a href="#dataset" id="toc-dataset" class="nav-link" data-scroll-target="#dataset">Dataset</a></li>
+  <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology">Methodology</a>
+  <ul class="collapse">
+  <li><a href="#preprocessing" id="toc-preprocessing" class="nav-link" data-scroll-target="#preprocessing">Preprocessing</a></li>
+  <li><a href="#feature-engineering" id="toc-feature-engineering" class="nav-link" data-scroll-target="#feature-engineering">Feature Engineering</a></li>
+  <li><a href="#modeling" id="toc-modeling" class="nav-link" data-scroll-target="#modeling">Modeling</a></li>
+  </ul></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
+  <li><a href="#key-insights" id="toc-key-insights" class="nav-link" data-scroll-target="#key-insights">Key Insights</a></li>
+  <li><a href="#technical-highlights" id="toc-technical-highlights" class="nav-link" data-scroll-target="#technical-highlights">Technical Highlights</a></li>
+  <li><a href="#result" id="toc-result" class="nav-link" data-scroll-target="#result">Result</a></li>
   </ul>
 </nav>
     </div>
@@ -161,6 +172,125 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="summary" class="level2">
 <h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p>Performed sentiment classification on Sephora customer reviews using Natural Language Processing (NLP) to accurately detect positive, neutral, and negative sentiments, addressing challenges such as class imbalance.</p>
+<p><a href="sentiment_analysis.pdf">Download Full Report (PDF)</a></p>
+</section>
+<section id="dataset" class="level2">
+<h2 class="anchored" data-anchor-id="dataset">Dataset</h2>
+<ul>
+<li>Size: ~50,000 reviews (structured + unstructured text)</li>
+<li>Sentiment classes: Positive, Neutral, Negative (labeled from 1–5 star ratings)</li>
+<li>Imbalance: Strong positive bias (most reviews are 5 stars)</li>
+</ul>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img src="1.png" class="img-fluid"></p>
+</div><div class="column" style="width:50%;">
+<p><img src="2.png" class="img-fluid"></p>
+</div>
+</div>
+</section>
+<section id="methodology" class="level2">
+<h2 class="anchored" data-anchor-id="methodology">Methodology</h2>
+<p>The pipeline was divided into three key stages:</p>
+<section id="preprocessing" class="level3">
+<h3 class="anchored" data-anchor-id="preprocessing">Preprocessing</h3>
+<ul>
+<li>Combined <code>title</code> and <code>review</code> into <code>full_review</code></li>
+<li>Applied standard NLP cleaning:
+<ul>
+<li>Lowercased text</li>
+<li>Removed punctuation</li>
+<li>Tokenized words</li>
+</ul></li>
+<li>Removed stopwords and performed lemmatization using <strong>NLTK</strong></li>
+<li>Mapped sentiment labels:<br>
+<code>1–2 → Negative</code>, <code>3 → Neutral</code>, <code>4–5 → Positive</code></li>
+</ul>
+</section>
+<section id="feature-engineering" class="level3">
+<h3 class="anchored" data-anchor-id="feature-engineering">Feature Engineering</h3>
+<p>Explored multiple vectorization strategies to represent text numerically:</p>
+<ul>
+<li>Count Vectorizer</li>
+<li>TF-IDF Vectorizer</li>
+<li>Word2Vec Embeddings</li>
+</ul>
+</section>
+<section id="modeling" class="level3">
+<h3 class="anchored" data-anchor-id="modeling">Modeling</h3>
+<p>Used classical machine learning pipeline with the following configuration:</p>
+<ul>
+<li>Algorithm: Logistic Regression</li>
+<li>Cross-validation: Stratified K-Fold</li>
+<li>Hyperparameter tuning: GridSearchCV</li>
+<li>Class imbalance handling: <code>class_weight="balanced"</code></li>
+</ul>
+</section>
+</section>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results">Results</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Model</th>
+<th>Accuracy</th>
+<th>Macro-F1</th>
+<th>Precision</th>
+<th>Recall</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Count Vectorizer</td>
+<td>84.3%</td>
+<td>0.652</td>
+<td>0.70</td>
+<td>0.63</td>
+</tr>
+<tr class="even">
+<td>TF-IDF</td>
+<td>81.9%</td>
+<td>0.680</td>
+<td>0.68</td>
+<td>0.68</td>
+</tr>
+<tr class="odd">
+<td>Word2Vec</td>
+<td>73.5%</td>
+<td>0.510</td>
+<td>0.60</td>
+<td>0.49</td>
+</tr>
+</tbody>
+</table>
+<p>TF-IDF achieved the best macro-F1 score, reflecting its ability to balance predictions across all sentiment classes despite strong class imbalance.</p>
+</section>
+<section id="key-insights" class="level2">
+<h2 class="anchored" data-anchor-id="key-insights">Key Insights</h2>
+<ul>
+<li>Top NLP methods: Count Vectorization achieved highest accuracy (84.3%), but TF-IDF provided superior balanced performance (Macro-F1: 0.680), crucial given significant class imbalance.</li>
+<li>Identified challenges with Word2Vec due to limited dataset size, resulting in lower performance.</li>
+<li>Highlighted the importance of macro-F1 as a more reliable metric than accuracy alone for sentiment analysis.</li>
+</ul>
+</section>
+<section id="technical-highlights" class="level2">
+<h2 class="anchored" data-anchor-id="technical-highlights">Technical Highlights</h2>
+<ul>
+<li>Employed Python extensively (Pandas, NumPy, Scikit-learn, NLTK, Gensim).</li>
+<li>Conducted comprehensive data preprocessing, including tokenization, lemmatization, and stop-word removal.</li>
+<li>Used GridSearchCV and Stratified K-Fold Cross-Validation for robust model tuning and validation.</li>
+</ul>
+</section>
+<section id="result" class="level2">
+<h2 class="anchored" data-anchor-id="result">Result</h2>
+<p>This project demonstrated a practical pipeline for sentiment classification using real-world product review data. Despite strong class imbalance, models like TF-IDF with Logistic Regression yielded strong macro-F1 performance.</p>
+<p><strong>Key takeaways</strong></p>
+<ul>
+<li>Simple vectorizers can outperform deep embeddings (e.g., Word2Vec) in small datasets.</li>
+<li>Macro-F1 is a more reliable metric than accuracy when class imbalance exists.</li>
+<li>Future work could explore more advanced NLP methods (e.g., BERT) or address imbalance with SMOTE or focal loss.</li>
+</ul>
 
 
 </section>

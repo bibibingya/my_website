@@ -1,0 +1,6 @@
+---
+title: "Airline Operations & Passenger Satisfaction Analysis"
+author: Emma Wu
+date: 2024-12-13
+categories: [Python, Tableau]
+---

@@ -4,7 +4,105 @@
     "href": "blog.html",
     "title": "My Projects",
     "section": "",
-    "text": "Card Transition Report\n\n\n\nPython\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSentiment Analysis of Sephora Product Reviews\n\n\n\nPython\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExploring Consumer Behavior Across Cultures\n\n\n\nPython\n\n\nSmartPLS\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Card Transition Report\n\n\n\nPython\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSentiment Analysis of Sephora Product Reviews\n\n\n\nPython\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAirline Operations & Passenger Satisfaction Analysis\n\n\n\nPython\n\n\nTableau\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExploring Consumer Behaviors between Eastern and Western Countries\n\n\n\nPython\n\n\nSmartPLS\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/sentiment_analysis/index.html",
+    "href": "projects/sentiment_analysis/index.html",
+    "title": "Sentiment Analysis of Sephora Product Reviews",
+    "section": "",
+    "text": "Performed sentiment classification on Sephora customer reviews using Natural Language Processing (NLP) to accurately detect positive, neutral, and negative sentiments, addressing challenges such as class imbalance.\nDownload Full Report (PDF)"
+  },
+  {
+    "objectID": "projects/sentiment_analysis/index.html#summary",
+    "href": "projects/sentiment_analysis/index.html#summary",
+    "title": "Sentiment Analysis of Sephora Product Reviews",
+    "section": "",
+    "text": "Performed sentiment classification on Sephora customer reviews using Natural Language Processing (NLP) to accurately detect positive, neutral, and negative sentiments, addressing challenges such as class imbalance.\nDownload Full Report (PDF)"
+  },
+  {
+    "objectID": "projects/sentiment_analysis/index.html#dataset",
+    "href": "projects/sentiment_analysis/index.html#dataset",
+    "title": "Sentiment Analysis of Sephora Product Reviews",
+    "section": "Dataset",
+    "text": "Dataset\n\nSize: ~50,000 reviews (structured + unstructured text)\nSentiment classes: Positive, Neutral, Negative (labeled from 1–5 star ratings)\nImbalance: Strong positive bias (most reviews are 5 stars)"
+  },
+  {
+    "objectID": "projects/sentiment_analysis/index.html#methodology",
+    "href": "projects/sentiment_analysis/index.html#methodology",
+    "title": "Sentiment Analysis of Sephora Product Reviews",
+    "section": "Methodology",
+    "text": "Methodology\nThe pipeline was divided into three key stages:\n\nPreprocessing\n\nCombined title and review into full_review\nApplied standard NLP cleaning:\n\nLowercased text\nRemoved punctuation\nTokenized words\n\nRemoved stopwords and performed lemmatization using NLTK\nMapped sentiment labels:\n1–2 → Negative, 3 → Neutral, 4–5 → Positive\n\n\n\nFeature Engineering\nExplored multiple vectorization strategies to represent text numerically:\n\nCount Vectorizer\nTF-IDF Vectorizer\nWord2Vec Embeddings\n\n\n\nModeling\nUsed classical machine learning pipeline with the following configuration:\n\nAlgorithm: Logistic Regression\nCross-validation: Stratified K-Fold\nHyperparameter tuning: GridSearchCV\nClass imbalance handling: class_weight=\"balanced\""
+  },
+  {
+    "objectID": "projects/sentiment_analysis/index.html#results",
+    "href": "projects/sentiment_analysis/index.html#results",
+    "title": "Sentiment Analysis of Sephora Product Reviews",
+    "section": "Results",
+    "text": "Results\n\n\n\nModel\nAccuracy\nMacro-F1\nPrecision\nRecall\n\n\n\n\nCount Vectorizer\n84.3%\n0.652\n0.70\n0.63\n\n\nTF-IDF\n81.9%\n0.680\n0.68\n0.68\n\n\nWord2Vec\n73.5%\n0.510\n0.60\n0.49\n\n\n\nTF-IDF achieved the best macro-F1 score, reflecting its ability to balance predictions across all sentiment classes despite strong class imbalance."
+  },
+  {
+    "objectID": "projects/sentiment_analysis/index.html#key-insights",
+    "href": "projects/sentiment_analysis/index.html#key-insights",
+    "title": "Sentiment Analysis of Sephora Product Reviews",
+    "section": "Key Insights",
+    "text": "Key Insights\n\nTop NLP methods: Count Vectorization achieved highest accuracy (84.3%), but TF-IDF provided superior balanced performance (Macro-F1: 0.680), crucial given significant class imbalance.\nIdentified challenges with Word2Vec due to limited dataset size, resulting in lower performance.\nHighlighted the importance of macro-F1 as a more reliable metric than accuracy alone for sentiment analysis."
+  },
+  {
+    "objectID": "projects/sentiment_analysis/index.html#technical-highlights",
+    "href": "projects/sentiment_analysis/index.html#technical-highlights",
+    "title": "Sentiment Analysis of Sephora Product Reviews",
+    "section": "Technical Highlights",
+    "text": "Technical Highlights\n\nEmployed Python extensively (Pandas, NumPy, Scikit-learn, NLTK, Gensim).\nConducted comprehensive data preprocessing, including tokenization, lemmatization, and stop-word removal.\nUsed GridSearchCV and Stratified K-Fold Cross-Validation for robust model tuning and validation."
+  },
+  {
+    "objectID": "projects/sentiment_analysis/index.html#result",
+    "href": "projects/sentiment_analysis/index.html#result",
+    "title": "Sentiment Analysis of Sephora Product Reviews",
+    "section": "Result",
+    "text": "Result\nThis project demonstrated a practical pipeline for sentiment classification using real-world product review data. Despite strong class imbalance, models like TF-IDF with Logistic Regression yielded strong macro-F1 performance.\nKey takeaways\n\nSimple vectorizers can outperform deep embeddings (e.g., Word2Vec) in small datasets.\nMacro-F1 is a more reliable metric than accuracy when class imbalance exists.\nFuture work could explore more advanced NLP methods (e.g., BERT) or address imbalance with SMOTE or focal loss."
+  },
+  {
+    "objectID": "projects/bechelor_thesis/index.html",
+    "href": "projects/bechelor_thesis/index.html",
+    "title": "Exploring Consumer Behaviors between Eastern and Western Countries",
+    "section": "",
+    "text": "This project analyzes the behavioral differences between Eastern and Western consumers—specifically Taiwanese and American—toward sustainable fashion. Using SMARTPLS, it models how ESG awareness, environmental consciousness, and cultural dimensions influence consumers’ intentions to engage in sustainable fashion practices."
+  },
+  {
+    "objectID": "projects/bechelor_thesis/index.html#summary",
+    "href": "projects/bechelor_thesis/index.html#summary",
+    "title": "Exploring Consumer Behaviors between Eastern and Western Countries",
+    "section": "",
+    "text": "This project analyzes the behavioral differences between Eastern and Western consumers—specifically Taiwanese and American—toward sustainable fashion. Using SMARTPLS, it models how ESG awareness, environmental consciousness, and cultural dimensions influence consumers’ intentions to engage in sustainable fashion practices."
+  },
+  {
+    "objectID": "projects/bechelor_thesis/index.html#key-research-focus",
+    "href": "projects/bechelor_thesis/index.html#key-research-focus",
+    "title": "Exploring Consumer Behaviors between Eastern and Western Countries",
+    "section": "Key Research Focus",
+    "text": "Key Research Focus\n\nVariables examined:\n\nEnvironmental Consciousness\nValue Equity\nBrand ESG Awareness\nPurchase Intention in Sustainable Fashion\n\nCultural Dimensions (based on Hofstede’s theory):\n\nIndividualism vs. Collectivism\n\nUncertainty Avoidance\n\nPower Distance\n\nLong-/Short-term Orientation"
+  },
+  {
+    "objectID": "projects/bechelor_thesis/index.html#methodology",
+    "href": "projects/bechelor_thesis/index.html#methodology",
+    "title": "Exploring Consumer Behaviors between Eastern and Western Countries",
+    "section": "Methodology",
+    "text": "Methodology\n\n\n\nElement\nDetail\n\n\n\n\nSample\n200 respondents (Taiwan & USA)\n\n\nAge Range\n18–35 (Millennials & Gen Z)\n\n\nTool Used\nSMARTPLS (PLS-SEM Modeling)\n\n\nDesign\nQuantitative Cross-Sectional Survey"
+  },
+  {
+    "objectID": "projects/bechelor_thesis/index.html#research-framework",
+    "href": "projects/bechelor_thesis/index.html#research-framework",
+    "title": "Exploring Consumer Behaviors between Eastern and Western Countries",
+    "section": "Research Framework",
+    "text": "Research Framework\n\nThe model investigates how cultural dimensions moderate the influence of consumer behavior variables on sustainable fashion intent.\n\n\n\n\nResearch Framework Diagram"
+  },
+  {
+    "objectID": "projects/bechelor_thesis/index.html#results",
+    "href": "projects/bechelor_thesis/index.html#results",
+    "title": "Exploring Consumer Behaviors between Eastern and Western Countries",
+    "section": "Results",
+    "text": "Results\n\nReliability & Validity\nAll constructs in both groups meet the thresholds for:\n\nReliability: Cronbach’s alpha and composite reliability &gt; 0.7\n\nConvergent Validity: AVE &gt; 0.5\n\nExplanatory Power: R² values range between 0.33 and 0.67, indicating moderate predictive strength\n\nEastern\n\n\n\nFactor\nCronbach’s Alpha\nComposite Reliability\nAVE\nR²\n\n\n\n\nEC\n.843\n.905\n.761\n—\n\n\nVE\n.826\n.896\n.743\n.544\n\n\nBA\n.901\n.925\n.713\n.509\n\n\nIP\n.918\n.938\n.713\n.759\n\n\n\nWestern\n\n\n\nFactor\nCronbach’s Alpha\nComposite Reliability\nAVE\nR²\n\n\n\n\nEC\n.843\n.906\n.762\n—\n\n\nVE\n.783\n.874\n.700\n.374\n\n\nBA\n.909\n.931\n.731\n.428\n\n\nIP\n.873\n.913\n.724\n.614\n\n\n\n\n\n\nDiscriminant Validity\nTo confirm that constructs are distinct from one another, discriminant validity was assessed using the Fornell-Larcker criterion.\nDiagonal values (in bold) represent the square root of AVE, which should be greater than inter-construct correlations.\nEastern\n\n\n\n\nBA\nEC\nIP\nVE\n\n\n\n\nBA\n.844\n\n\n\n\n\nEC\n.714\n.873\n\n\n\n\nIP\n.811\n.754\n.868\n\n\n\nVE\n.750\n.737\n.772\n.862\n\n\n\nWestern\n\n\n\n\nBA\nEC\nIP\nVE\n\n\n\n\nBA\n.855\n\n\n\n\n\nEC\n.639\n.873\n\n\n\n\nIP\n.775\n.579\n.851\n\n\n\nVE\n.776\n.601\n.643\n.836\n\n\n\n\n\nTop influencing factor:\nBrand ESG awareness strongly predicts sustainable fashion intent, especially in the US group.\nOther findings:\n\nTaiwanese consumers show slightly higher environmental consciousness.\nAmerican consumers are more influenced by ESG brand messaging.\nSome cultural moderators (e.g., power distance) were not statistically significant."
   },
   {
     "objectID": "resume.html",
@@ -12,69 +110,6 @@
     "title": "Resume",
     "section": "",
     "text": "Download PDF file."
-  },
-  {
-    "objectID": "projects/bechelor_thesis/index.html",
-    "href": "projects/bechelor_thesis/index.html",
-    "title": "Exploring Consumer Behavior Across Cultures",
-    "section": "",
-    "text": "This project analyzes the behavioral differences between Eastern and Western consumers—specifically Taiwanese and American—toward sustainable fashion. Using SMARTPLS, it models how ESG awareness, environmental consciousness, and cultural dimensions influence consumers’ intentions to engage in sustainable fashion practices."
-  },
-  {
-    "objectID": "projects/bechelor_thesis/index.html#summary",
-    "href": "projects/bechelor_thesis/index.html#summary",
-    "title": "Exploring Consumer Behavior Across Cultures",
-    "section": "",
-    "text": "This project analyzes the behavioral differences between Eastern and Western consumers—specifically Taiwanese and American—toward sustainable fashion. Using SMARTPLS, it models how ESG awareness, environmental consciousness, and cultural dimensions influence consumers’ intentions to engage in sustainable fashion practices."
-  },
-  {
-    "objectID": "projects/bechelor_thesis/index.html#key-research-focus",
-    "href": "projects/bechelor_thesis/index.html#key-research-focus",
-    "title": "Exploring Consumer Behavior Across Cultures",
-    "section": "Key Research Focus",
-    "text": "Key Research Focus\n\nVariables examined:\n\nEnvironmental Consciousness\nValue Equity\nBrand ESG Awareness\nPurchase Intention in Sustainable Fashion\n\nCultural Dimensions (based on Hofstede’s theory):\n\nIndividualism vs. Collectivism\n\nUncertainty Avoidance\n\nPower Distance\n\nLong-/Short-term Orientation"
-  },
-  {
-    "objectID": "projects/bechelor_thesis/index.html#methodology",
-    "href": "projects/bechelor_thesis/index.html#methodology",
-    "title": "Exploring Consumer Behavior Across Cultures",
-    "section": "Methodology",
-    "text": "Methodology\n\n\n\nElement\nDetail\n\n\n\n\nSample\n200 respondents (Taiwan & USA)\n\n\nAge Range\n18–35 (Millennials & Gen Z)\n\n\nTool Used\nSMARTPLS (PLS-SEM Modeling)\n\n\nDesign\nQuantitative Cross-Sectional Survey"
-  },
-  {
-    "objectID": "projects/bechelor_thesis/index.html#research-framework",
-    "href": "projects/bechelor_thesis/index.html#research-framework",
-    "title": "Exploring Consumer Behavior Across Cultures",
-    "section": "Research Framework",
-    "text": "Research Framework\n\nThe model investigates how cultural dimensions moderate the influence of consumer behavior variables on sustainable fashion intent.\n\n\n\n\nResearch Framework Diagram"
-  },
-  {
-    "objectID": "projects/bechelor_thesis/index.html#results",
-    "href": "projects/bechelor_thesis/index.html#results",
-    "title": "Exploring Consumer Behavior Across Cultures",
-    "section": "Results",
-    "text": "Results\n\nReliability & Validity\nAll constructs in both groups meet the thresholds for:\n\nReliability: Cronbach’s alpha and composite reliability &gt; 0.7\n\nConvergent Validity: AVE &gt; 0.5\n\nExplanatory Power: R² values range between 0.33 and 0.67, indicating moderate predictive strength\n\nEastern\n\n\n\nFactor\nCronbach’s Alpha\nComposite Reliability\nAVE\nR²\n\n\n\n\nEC\n.843\n.905\n.761\n—\n\n\nVE\n.826\n.896\n.743\n.544\n\n\nBA\n.901\n.925\n.713\n.509\n\n\nIP\n.918\n.938\n.713\n.759\n\n\n\nWestern\n\n\n\nFactor\nCronbach’s Alpha\nComposite Reliability\nAVE\nR²\n\n\n\n\nEC\n.843\n.906\n.762\n—\n\n\nVE\n.783\n.874\n.700\n.374\n\n\nBA\n.909\n.931\n.731\n.428\n\n\nIP\n.873\n.913\n.724\n.614\n\n\n\n\n\n\nDiscriminant Validity\nTo confirm that constructs are distinct from one another, discriminant validity was assessed using the Fornell-Larcker criterion.\nDiagonal values (in bold) represent the square root of AVE, which should be greater than inter-construct correlations.\nEastern\n\n\n\n\nBA\nEC\nIP\nVE\n\n\n\n\nBA\n.844\n\n\n\n\n\nEC\n.714\n.873\n\n\n\n\nIP\n.811\n.754\n.868\n\n\n\nVE\n.750\n.737\n.772\n.862\n\n\n\nWestern\n\n\n\n\nBA\nEC\nIP\nVE\n\n\n\n\nBA\n.855\n\n\n\n\n\nEC\n.639\n.873\n\n\n\n\nIP\n.775\n.579\n.851\n\n\n\nVE\n.776\n.601\n.643\n.836\n\n\n\n\n\nTop influencing factor:\nBrand ESG awareness strongly predicts sustainable fashion intent, especially in the US group.\nOther findings:\n\nTaiwanese consumers show slightly higher environmental consciousness.\nAmerican consumers are more influenced by ESG brand messaging.\nSome cultural moderators (e.g., power distance) were not statistically significant."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Emma Wu",
-    "section": "",
-    "text": "I’m a Master of Science in Business Analytics (MSBA) candidate at UC San Diego – Rady School of Management, expected to graduate in December 2025. I am passionate about leveraging data and analytics to drive actionable business insights.\nWith a background in Fashion Marketing and experience in statistical analysis, visualization, and machine learning, I aim to bring creative problem-solving and data-driven strategies to organizations across industries."
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Emma Wu",
-    "section": "Education",
-    "text": "Education\n\n\n\n\nMaster of Science in Business Analytics University of California, San Diego (Aug 2024 – Dec 2025)\n\n\n\n\n\nBachelor of Science in Fashion Marketing Fu-Jen Catholic University, Taiwan (Sep 2020 – Jun 2024)"
-  },
-  {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
-    "title": "Emma Wu",
-    "section": "Experience",
-    "text": "Experience\n\n\n\n\nBusiness Analyst TVision (March 2025 – June 2025)\n\nConducted attention and audience analysis across CTV and Linear platforms using 10,000+ rows of historical data, developed predictive models to forecast attentive viewing rates, and delivered a interactive Tableau dashboard to optimize media planning and measure incremental campaign reach.\n\n\n\n\n\nData Analyst Internship MIRDC - Optical & Semiconductor Equipment Industry Office (Sep 2023 – June 2024)\n\nTransformed raw datasets into insights, built 50+ visualizations, and supported bilingual client communication across 20+ accounts.\n\n\n\n\n\nStudent Tutor Qing-Xue Language & Science Learning School (Sep 2020 – Jun 2024)\n\nPresented academic outcomes to clients, streamlined communication between students and teachers, and supported 80% of students in improving their grades."
   },
   {
     "objectID": "projects/card_transition/index.html",
@@ -102,7 +137,7 @@
     "href": "projects/card_transition/index.html#key-results",
     "title": "Card Transition Report",
     "section": "Key Results",
-    "text": "Key Results\n\n🎯 Fraud detection (FDR@3%):\nTrain: 80.7%, Test: 76.6%, OOT: 57.6%\n💵 Estimated savings: $59.4 million\n🔎 Review effort: Only 3% of transactions flagged"
+    "text": "Key Results\n\nFraud detection (FDR@3%):\nTrain: 80.7%, Test: 76.6%, OOT: 57.6%\nEstimated savings: $59.4 million\nReview effort: Only 3% of transactions flagged"
   },
   {
     "objectID": "projects/card_transition/index.html#method-summary",
@@ -110,5 +145,26 @@
     "title": "Card Transition Report",
     "section": "Method Summary",
     "text": "Method Summary\n\nCleaned and filtered raw data (removed outliers)\nEngineered 4000+ features (velocity, ratio, digit-based, etc.)\nSelected top 20 features via forward selection (CatBoost)\nCompared 5 models → XGBoost outperformed others\nIdentified cutoff threshold using financial value curves"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Emma Wu",
+    "section": "",
+    "text": "I’m a Master of Science in Business Analytics (MSBA) candidate at UC San Diego – Rady School of Management, expected to graduate in December 2025. I am passionate about leveraging data and analytics to drive actionable business insights.\nWith a background in Fashion Marketing and experience in statistical analysis, visualization, and machine learning, I aim to bring creative problem-solving and data-driven strategies to organizations across industries."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Emma Wu",
+    "section": "Education",
+    "text": "Education\n\n\n\n\nMaster of Science in Business Analytics University of California, San Diego (Aug 2024 – Dec 2025)\n\n\n\n\n\nBachelor of Science in Fashion Marketing Fu-Jen Catholic University, Taiwan (Sep 2020 – Jun 2024)"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Emma Wu",
+    "section": "Experience",
+    "text": "Experience\n\n\n\n\nBusiness Analyst TVision (March 2025 – June 2025)\n\nConducted attention and audience analysis across CTV and Linear platforms using 10,000+ rows of historical data, developed predictive models to forecast attentive viewing rates, and delivered a interactive Tableau dashboard to optimize media planning and measure incremental campaign reach.\n\n\n\n\n\nData Analyst Internship MIRDC - Optical & Semiconductor Equipment Industry Office (Sep 2023 – June 2024)\n\nTransformed raw datasets into insights, built 50+ visualizations, and supported bilingual client communication across 20+ accounts.\n\n\n\n\n\nStudent Tutor Qing-Xue Language & Science Learning School (Sep 2020 – Jun 2024)\n\nPresented academic outcomes to clients, streamlined communication between students and teachers, and supported 80% of students in improving their grades."
   }
 ]

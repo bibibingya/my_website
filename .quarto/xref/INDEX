@@ -70,5 +70,8 @@
   },
   "projects/sentiment_analysis/index.qmd": {
     "index.html": "535ec621"
+  },
+  "projects/airline/index.qmd": {
+    "index.html": "daa2d5fb"
   }
 }
