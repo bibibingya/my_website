@@ -52,5 +52,11 @@
   },
   "emw_marketing_analytics/blog.qmd": {
     "blog.html": "82a393f7"
+  },
+  "projects/project1/music_streaming/index.qmd": {
+    "index.html": "b89020ff"
+  },
+  "projects/project1/bachelor_thesis/index.qmd": {
+    "index.html": "81353f16"
   }
 }

@@ -1,7 +1,0 @@
----
-title: "Exploring Consumer Behaviors between Eastern and Western Countries 
-in Sustainable Fashion"
-description: "My bachelor's thesis examined how consumer behavior differs across demographic groups, aiming to promote greater engagement in sustainable fashion."
-date: 2024-04-19
-categories: [Python, SQL]
----
