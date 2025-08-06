@@ -147,6 +147,69 @@
     "text": "Method Summary\n\nCleaned and filtered raw data (removed outliers)\nEngineered 4000+ features (velocity, ratio, digit-based, etc.)\nSelected top 20 features via forward selection (CatBoost)\nCompared 5 models → XGBoost outperformed others\nIdentified cutoff threshold using financial value curves"
   },
   {
+    "objectID": "projects/airline/index.html",
+    "href": "projects/airline/index.html",
+    "title": "Airline Operations & Passenger Satisfaction Analysis",
+    "section": "",
+    "text": "This project bridges the gap between customer reviews and operational performance data to help airlines improve passenger satisfaction and reduce flight delays. Using web scraping, sentiment analysis, and flight delay data, we developed a real-time review monitoring system and proposed strategic insights.\nDownload Full Presentation (PDF)"
+  },
+  {
+    "objectID": "projects/airline/index.html#summary",
+    "href": "projects/airline/index.html#summary",
+    "title": "Airline Operations & Passenger Satisfaction Analysis",
+    "section": "",
+    "text": "This project bridges the gap between customer reviews and operational performance data to help airlines improve passenger satisfaction and reduce flight delays. Using web scraping, sentiment analysis, and flight delay data, we developed a real-time review monitoring system and proposed strategic insights.\nDownload Full Presentation (PDF)"
+  },
+  {
+    "objectID": "projects/airline/index.html#data-overview",
+    "href": "projects/airline/index.html#data-overview",
+    "title": "Airline Operations & Passenger Satisfaction Analysis",
+    "section": "Data Overview",
+    "text": "Data Overview\n\nReview Source: Skytrax\nData Type: Text reviews, ratings, recommendations\nTools Used:\n\nData scraping: BeautifulSoup\nText Analysis: NLTK, Gensim, pyLDAvis"
+  },
+  {
+    "objectID": "projects/airline/index.html#methodology",
+    "href": "projects/airline/index.html#methodology",
+    "title": "Airline Operations & Passenger Satisfaction Analysis",
+    "section": "Methodology",
+    "text": "Methodology\n\n\n\nData Collection\n\nWeb scraped from Skytrax\nFocused on reviews, dates, ratings\n\n\n\n\nPreprocessing\n\nTokenization\nLemmatization\nStopword removal\n\n\n\n\nAnalysis\n\nLDA Topic Modeling\nSentiment classification\nDelay pattern visualization"
+  },
+  {
+    "objectID": "projects/airline/index.html#topic-modeling",
+    "href": "projects/airline/index.html#topic-modeling",
+    "title": "Airline Operations & Passenger Satisfaction Analysis",
+    "section": "Topic Modeling",
+    "text": "Topic Modeling\n\nPositive Review Topics\n\nKeywords: good, service, time, crew, friendly, experience\n\n\n\n\nPositive LDA Topics\n\n\n\n\nNegative Review Topics\n\nKeywords: delay, late, hours, gate, rude, cancel\n\n\n\n\nNegative LDA Topics"
+  },
+  {
+    "objectID": "projects/airline/index.html#delay-pattern-analysis",
+    "href": "projects/airline/index.html#delay-pattern-analysis",
+    "title": "Airline Operations & Passenger Satisfaction Analysis",
+    "section": "Delay Pattern Analysis",
+    "text": "Delay Pattern Analysis\n\nMonthly Trends\nDelays spike in July–August and decline in late fall/winter.\n\n\n\nDelay by Month\n\n\n\n\nBy Cause\n\nCarrier delays dominate over weather and NAS-related issues.\n\n\n\n\nDelay by Cause\n\n\n\n\nBy Airport\n\nMajor delays at: Atlanta (ATL), Chicago (ORD), Dallas (DFW)\n\n\n\n\nDelay by Airport\n\n\n\n\nBy Airline\n\nHigh delay volume: JetBlue, Southwest, United\n\n\n\n\nDelay by Airline"
+  },
+  {
+    "objectID": "projects/airline/index.html#proposed-solution",
+    "href": "projects/airline/index.html#proposed-solution",
+    "title": "Airline Operations & Passenger Satisfaction Analysis",
+    "section": "Proposed Solution",
+    "text": "Proposed Solution\n\nReal-Time Review Dashboard\n\nFlags complaints on delays/service\nSends alerts to airline staff\nIntegrates operational data (delay type, weather)"
+  },
+  {
+    "objectID": "projects/airline/index.html#insights-recommendations",
+    "href": "projects/airline/index.html#insights-recommendations",
+    "title": "Airline Operations & Passenger Satisfaction Analysis",
+    "section": "Insights & Recommendations",
+    "text": "Insights & Recommendations\n\nPrioritize operations in July–August for delay mitigation\nImprove carrier-related logistics over weather delays\nUse NLP dashboards to escalate serious complaints\nAirlines with low delays can serve as benchmarks"
+  },
+  {
+    "objectID": "projects/airline/index.html#conclusion",
+    "href": "projects/airline/index.html#conclusion",
+    "title": "Airline Operations & Passenger Satisfaction Analysis",
+    "section": "Conclusion",
+    "text": "Conclusion\nBy integrating real-time reviews and delay data, airlines can: - Respond quicker to passenger pain points - Predict and prevent operational bottlenecks - Improve customer satisfaction & brand loyalty"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Emma Wu",

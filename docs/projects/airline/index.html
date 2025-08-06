@@ -113,8 +113,34 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary">Summary</a></li>
+  <li><a href="#data-overview" id="toc-data-overview" class="nav-link" data-scroll-target="#data-overview">Data Overview</a></li>
+  <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology">Methodology</a></li>
+  <li><a href="#topic-modeling" id="toc-topic-modeling" class="nav-link" data-scroll-target="#topic-modeling">Topic Modeling</a>
+  <ul class="collapse">
+  <li><a href="#positive-review-topics" id="toc-positive-review-topics" class="nav-link" data-scroll-target="#positive-review-topics">Positive Review Topics</a></li>
+  <li><a href="#negative-review-topics" id="toc-negative-review-topics" class="nav-link" data-scroll-target="#negative-review-topics">Negative Review Topics</a></li>
+  </ul></li>
+  <li><a href="#delay-pattern-analysis" id="toc-delay-pattern-analysis" class="nav-link" data-scroll-target="#delay-pattern-analysis">Delay Pattern Analysis</a>
+  <ul class="collapse">
+  <li><a href="#monthly-trends" id="toc-monthly-trends" class="nav-link" data-scroll-target="#monthly-trends">Monthly Trends</a></li>
+  <li><a href="#by-cause" id="toc-by-cause" class="nav-link" data-scroll-target="#by-cause">By Cause</a></li>
+  <li><a href="#by-airport" id="toc-by-airport" class="nav-link" data-scroll-target="#by-airport">By Airport</a></li>
+  <li><a href="#by-airline" id="toc-by-airline" class="nav-link" data-scroll-target="#by-airline">By Airline</a></li>
+  </ul></li>
+  <li><a href="#proposed-solution" id="toc-proposed-solution" class="nav-link" data-scroll-target="#proposed-solution">Proposed Solution</a>
+  <ul class="collapse">
+  <li><a href="#real-time-review-dashboard" id="toc-real-time-review-dashboard" class="nav-link" data-scroll-target="#real-time-review-dashboard">Real-Time Review Dashboard</a></li>
+  </ul></li>
+  <li><a href="#insights-recommendations" id="toc-insights-recommendations" class="nav-link" data-scroll-target="#insights-recommendations">Insights &amp; Recommendations</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -154,8 +180,157 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p>This project bridges the gap between customer reviews and operational performance data to help airlines improve passenger satisfaction and reduce flight delays. Using web scraping, sentiment analysis, and flight delay data, we developed a real-time review monitoring system and proposed strategic insights.</p>
+<p><a href="airline_operation.pdf.pdf">Download Full Presentation (PDF)</a></p>
+</section>
+<section id="data-overview" class="level2">
+<h2 class="anchored" data-anchor-id="data-overview">Data Overview</h2>
+<ul>
+<li>Review Source: Skytrax</li>
+<li>Data Type: Text reviews, ratings, recommendations</li>
+<li>Tools Used:
+<ul>
+<li>Data scraping: <code>BeautifulSoup</code></li>
+<li>Text Analysis: <code>NLTK</code>, <code>Gensim</code>, <code>pyLDAvis</code></li>
+</ul></li>
+</ul>
+</section>
+<section id="methodology" class="level2">
+<h2 class="anchored" data-anchor-id="methodology">Methodology</h2>
+<div class="columns">
+<div class="column" style="width:33%;">
+<section id="data-collection" class="level3">
+<h3 class="anchored" data-anchor-id="data-collection">Data Collection</h3>
+<ul>
+<li>Web scraped from Skytrax</li>
+<li>Focused on reviews, dates, ratings</li>
+</ul>
+</section>
+</div><div class="column" style="width:33%;">
+<section id="preprocessing" class="level3">
+<h3 class="anchored" data-anchor-id="preprocessing">Preprocessing</h3>
+<ul>
+<li>Tokenization</li>
+<li>Lemmatization</li>
+<li>Stopword removal</li>
+</ul>
+</section>
+</div><div class="column" style="width:33%;">
+<section id="analysis" class="level3">
+<h3 class="anchored" data-anchor-id="analysis">Analysis</h3>
+<ul>
+<li>LDA Topic Modeling</li>
+<li>Sentiment classification</li>
+<li>Delay pattern visualization</li>
+</ul>
+</section>
+</div>
+</div>
+</section>
+<section id="topic-modeling" class="level2">
+<h2 class="anchored" data-anchor-id="topic-modeling">Topic Modeling</h2>
+<section id="positive-review-topics" class="level3">
+<h3 class="anchored" data-anchor-id="positive-review-topics">Positive Review Topics</h3>
+<ul>
+<li>Keywords: <code>good</code>, <code>service</code>, <code>time</code>, <code>crew</code>, <code>friendly</code>, <code>experience</code></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="1.png" class="img-fluid figure-img"></p>
+<figcaption>Positive LDA Topics</figcaption>
+</figure>
+</div>
+</section>
+<section id="negative-review-topics" class="level3">
+<h3 class="anchored" data-anchor-id="negative-review-topics">Negative Review Topics</h3>
+<ul>
+<li>Keywords: <code>delay</code>, <code>late</code>, <code>hours</code>, <code>gate</code>, <code>rude</code>, <code>cancel</code></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="2.png" class="img-fluid figure-img"></p>
+<figcaption>Negative LDA Topics</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="delay-pattern-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="delay-pattern-analysis">Delay Pattern Analysis</h2>
+<section id="monthly-trends" class="level3">
+<h3 class="anchored" data-anchor-id="monthly-trends">Monthly Trends</h3>
+<p>Delays spike in <strong>July–August</strong> and decline in <strong>late fall/winter</strong>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="3.jpeg" class="img-fluid figure-img"></p>
+<figcaption>Delay by Month</figcaption>
+</figure>
+</div>
+</section>
+<section id="by-cause" class="level3">
+<h3 class="anchored" data-anchor-id="by-cause">By Cause</h3>
+<ul>
+<li><strong>Carrier delays</strong> dominate over weather and NAS-related issues.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="4.jpeg" class="img-fluid figure-img"></p>
+<figcaption>Delay by Cause</figcaption>
+</figure>
+</div>
+</section>
+<section id="by-airport" class="level3">
+<h3 class="anchored" data-anchor-id="by-airport">By Airport</h3>
+<ul>
+<li>Major delays at: <strong>Atlanta (ATL)</strong>, <strong>Chicago (ORD)</strong>, <strong>Dallas (DFW)</strong></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="5.jpeg" class="img-fluid figure-img"></p>
+<figcaption>Delay by Airport</figcaption>
+</figure>
+</div>
+</section>
+<section id="by-airline" class="level3">
+<h3 class="anchored" data-anchor-id="by-airline">By Airline</h3>
+<ul>
+<li>High delay volume: JetBlue, Southwest, United</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="6.jpeg" class="img-fluid figure-img"></p>
+<figcaption>Delay by Airline</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="proposed-solution" class="level2">
+<h2 class="anchored" data-anchor-id="proposed-solution">Proposed Solution</h2>
+<section id="real-time-review-dashboard" class="level3">
+<h3 class="anchored" data-anchor-id="real-time-review-dashboard">Real-Time Review Dashboard</h3>
+<ul>
+<li>Flags complaints on delays/service</li>
+<li>Sends alerts to airline staff</li>
+<li>Integrates operational data (delay type, weather)</li>
+</ul>
+</section>
+</section>
+<section id="insights-recommendations" class="level2">
+<h2 class="anchored" data-anchor-id="insights-recommendations">Insights &amp; Recommendations</h2>
+<ul>
+<li>Prioritize operations in <strong>July–August</strong> for delay mitigation</li>
+<li>Improve <strong>carrier-related logistics</strong> over weather delays</li>
+<li>Use NLP dashboards to <strong>escalate serious complaints</strong></li>
+<li>Airlines with low delays can serve as <strong>benchmarks</strong></li>
+</ul>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>By integrating <strong>real-time reviews</strong> and <strong>delay data</strong>, airlines can: - Respond quicker to passenger pain points - Predict and prevent operational bottlenecks - Improve customer satisfaction &amp; brand loyalty</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
