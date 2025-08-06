@@ -49,6 +49,7 @@ With a background in Fashion Marketing and experience in statistical analysis, v
 
 <div div style="max-width: 700px; text-align: center;">
   <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/icons/bar-chart.svg" width="100" />
+
   <p><strong>Data Analyst Internship</strong><br>
   <em>MIRDC - Optical & Semiconductor Equipment Industry Office</em><br>
   <span style="font-size: 0.7em;">(Sep 2023 – June 2024)</span></p>
@@ -64,3 +65,40 @@ With a background in Fashion Marketing and experience in statistical analysis, v
 </div>
 
 </div>
+
+## Skills
+::: {.columns .gap-4}
+
+::: {.column width="33%"}
+**Programming & Analytics**
+
+<span class="badge">Python</span>
+<span class="badge">R</span>
+<span class="badge">SQL</span>
+<span class="badge">Machine Learning</span>
+<span class="badge">A/B Testing</span>
+<span class="badge">Uplift Modeling</span>
+<span class="badge">Git</span>
+:::
+
+::: {.column width="33%"}
+**Data & Visualization**
+
+<span class="badge">Tableau</span>
+<span class="badge">Power BI</span>
+<span class="badge">Snowflake</span>
+<span class="badge">ETL</span>
+<span class="badge">Jupyter</span>
+<span class="badge">Google Analytics</span>
+:::
+
+::: {.column width="33%"}
+**Business & Communication**
+
+<span class="badge">CRM</span>
+<span class="badge">Google Workspace</span>
+<span class="badge">Microsoft Excel</span>
+<span class="badge">Bilingual: EN/ZH</span>
+:::
+
+:::

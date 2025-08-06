@@ -327,5 +327,19 @@
     "title": "Recipe Rating Predictive Model",
     "section": "Evaluation",
     "text": "Evaluation\n\nMatrix Factorization significantly outperforms traditional baselines\nMost useful features: number of ingredients, steps, and time\nIDs had little to no contribution beyond matrix factorization"
+  },
+  {
+    "objectID": "index.html#skills",
+    "href": "index.html#skills",
+    "title": "Emma Wu",
+    "section": "Skills",
+    "text": "Skills\n\n\nProgramming & Analytics\nPython R SQL Machine Learning A/B Testing Uplift Modeling Git\n\nData & Visualization\nTableau Power BI Snowflake ETL Jupyter Google Analytics\n\nBusiness & Communication\nCRM Google Workspace Microsoft Excel Bilingual: EN/ZH"
+  },
+  {
+    "objectID": "index.html#tools-technologies",
+    "href": "index.html#tools-technologies",
+    "title": "Emma Wu",
+    "section": "Tools & Technologies",
+    "text": "Tools & Technologies\n\n\n\nProgramming & Analytics\nPython R SQL Machine Learning A/B Testing Uplift Modeling Git\n\n\n\nData & Visualization\nTableau Power BI Snowflake ETL Jupyter Google Analytics\n\n\n\nBusiness & Communication\nCRM Google Workspace Microsoft Excel Bilingual: EN/ZH"
   }
 ]

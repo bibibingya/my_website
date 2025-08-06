@@ -106,3 +106,20 @@
     background-color: #f8fbff; /* 非常淡的藍灰色 */
   }
 
+  .badge {
+    display: inline-block;
+    background-color: #eef3fb;
+    color: #2c3e50;
+    padding: 6px 12px;
+    margin: 4px;
+    border-radius: 16px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    transition: all 0.2s ease;
+  }
+  
+  .badge:hover {
+    background-color: #dce8ff;
+    transform: scale(1.05);
+  }
