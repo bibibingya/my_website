@@ -57,3 +57,51 @@
   .quarto-grid-item:hover {
     border: 1px solid #d0e6ff;
   }
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(15px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .fade-in {
+    animation: fadeInUp 0.8s ease-out;
+  }
+
+  hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, #ccc, #f0f0f0, #ccc);
+    margin: 2rem 0;
+    opacity: 0.5;
+  }
+  .experience-card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s ease;
+    width: 280px;
+    text-align: center;
+  }
+  
+  .experience-card:hover {
+    transform: translateY(-6px);
+  }
+  
+  .experience-card img {
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .experience-card:hover img {
+    transform: scale(1.05);
+  }
+
+  body {
+    background-color: #f8fbff; /* 非常淡的藍灰色 */
+  }

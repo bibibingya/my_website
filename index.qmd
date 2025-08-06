@@ -15,7 +15,7 @@ I'm a Master of Science in Business Analytics (MSBA) candidate at UC San Diego �
 
 With a background in Fashion Marketing and experience in statistical analysis, visualization, and machine learning, I aim to bring creative problem-solving and data-driven strategies to organizations across industries.
 ---
-## Education
+## Education {.fade-in}
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 3rem; margin: 2em 0;">
 
@@ -39,11 +39,11 @@ With a background in Fashion Marketing and experience in statistical analysis, v
 
 <div style="display: flex; flex-direction: row; gap: 2rem; overflow-x: auto; padding: 1rem 0;">
 
-<div style="max-width: 700px; text-align: center;">
+<div div style="max-width: 700px; text-align: center;">
   <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/icons/graph-up.svg" width="100" />
   <p><strong>Business Analyst</strong><br>
   <em>TVision</em><br>
-  <span style="font-size: 0.9em;">(March 2025 – June 2025)</span></p>
+  <span style="font-size: 0.7em;">(March 2025 – June 2025)</span></p>
   <span style="font-size: 1em;">Conducted attention and audience analysis across CTV and Linear platforms using 10,000+ rows of historical data, developed predictive models to forecast attentive viewing rates, and delivered a interactive Tableau dashboard to optimize media planning and measure incremental campaign reach.</span></p>
 </div>
 
@@ -51,7 +51,7 @@ With a background in Fashion Marketing and experience in statistical analysis, v
   <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/icons/bar-chart.svg" width="100" />
   <p><strong>Data Analyst Internship</strong><br>
   <em>MIRDC - Optical & Semiconductor Equipment Industry Office</em><br>
-  <span style="font-size: 0.9em;">(Sep 2023 – June 2024)</span></p>
+  <span style="font-size: 0.7em;">(Sep 2023 – June 2024)</span></p>
   <span style="font-size: 1em;">Transformed raw datasets into insights, built 50+ visualizations, and supported bilingual client communication across 20+ accounts.</span></p>
 </div>
 
@@ -59,7 +59,7 @@ With a background in Fashion Marketing and experience in statistical analysis, v
   <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/icons/mortarboard.svg" width="100" />
   <p><strong>Student Tutor</strong><br>
   <em>Qing-Xue Language & Science Learning School</em><br>
-  <span style="font-size: 0.9em;">(Sep 2020 – Jun 2024)</span></p>
+  <span style="font-size: 0.7em;">(Sep 2020 – Jun 2024)</span></p>
   <span style="font-size: 1em;">Presented academic outcomes to clients, streamlined communication between students and teachers, and supported 80% of students in improving their grades.</span></p>
 </div>
 
