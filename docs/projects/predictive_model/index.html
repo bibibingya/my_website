@@ -113,8 +113,32 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary">Summary</a></li>
+  <li><a href="#dataset-summary" id="toc-dataset-summary" class="nav-link" data-scroll-target="#dataset-summary">Dataset Summary</a>
+  <ul class="collapse">
+  <li><a href="#key-columns" id="toc-key-columns" class="nav-link" data-scroll-target="#key-columns">Key Columns</a></li>
+  </ul></li>
+  <li><a href="#exploratory-data-analysis" id="toc-exploratory-data-analysis" class="nav-link" data-scroll-target="#exploratory-data-analysis">Exploratory Data Analysis</a>
+  <ul class="collapse">
+  <li><a href="#rating-distribution" id="toc-rating-distribution" class="nav-link" data-scroll-target="#rating-distribution">Rating Distribution</a></li>
+  </ul></li>
+  <li><a href="#feature-insights" id="toc-feature-insights" class="nav-link" data-scroll-target="#feature-insights">Feature Insights</a></li>
+  <li><a href="#modeling-pipeline" id="toc-modeling-pipeline" class="nav-link" data-scroll-target="#modeling-pipeline">Modeling Pipeline</a>
+  <ul class="collapse">
+  <li><a href="#baseline-average-rating" id="toc-baseline-average-rating" class="nav-link" data-scroll-target="#baseline-average-rating">1. Baseline (Average Rating)</a></li>
+  <li><a href="#ridge-regression" id="toc-ridge-regression" class="nav-link" data-scroll-target="#ridge-regression">2. Ridge Regression</a></li>
+  <li><a href="#random-forest" id="toc-random-forest" class="nav-link" data-scroll-target="#random-forest">3. Random Forest</a></li>
+  <li><a href="#matrix-factorization-sgd" id="toc-matrix-factorization-sgd" class="nav-link" data-scroll-target="#matrix-factorization-sgd">4. Matrix Factorization (SGD)</a></li>
+  </ul></li>
+  <li><a href="#evaluation" id="toc-evaluation" class="nav-link" data-scroll-target="#evaluation">Evaluation</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -153,8 +177,145 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p>This project builds a personalized recipe recommendation system using real user ratings from <a href="https://www.food.com">Food.com</a>. With over 230,000 recipes and 700,000+ user interactions, the goal was to predict ratings and recommend the best recipes using machine learning — particularly <strong>Matrix Factorization</strong>.</p>
+<p><a href="recipe_rating_predict.pdf.pdf">Download Full Report (PDF)</a></p>
+</section>
+<section id="dataset-summary" class="level2">
+<h2 class="anchored" data-anchor-id="dataset-summary">Dataset Summary</h2>
+<ul>
+<li>Recipes: 231,637</li>
+<li>User interactions: ~700,000<br>
+</li>
+<li>Split:
+<ul>
+<li>Train: 689,901 rows<br>
+</li>
+<li>Validation: 7,023 rows<br>
+</li>
+<li>Test: 12,455 rows</li>
+</ul></li>
+</ul>
+<section id="key-columns" class="level3">
+<h3 class="anchored" data-anchor-id="key-columns">Key Columns</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Column</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>user_id</code></td>
+<td>Unique user identifier</td>
+</tr>
+<tr class="even">
+<td><code>recipe_id</code></td>
+<td>Unique recipe identifier</td>
+</tr>
+<tr class="odd">
+<td><code>rating</code></td>
+<td>Rating given (1–5)</td>
+</tr>
+<tr class="even">
+<td><code>date</code></td>
+<td>When the rating was given</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="exploratory-data-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="exploratory-data-analysis">Exploratory Data Analysis</h2>
+<section id="rating-distribution" class="level3">
+<h3 class="anchored" data-anchor-id="rating-distribution">Rating Distribution</h3>
+<ul>
+<li>Majority of ratings are positive (5 stars)</li>
+<li>Higher ratings occur on weekends, especially Sundays</li>
+<li>June has the highest average rating, while February is lowest</li>
+</ul>
+<div class="columns gap-3">
+<div class="column" style="width:33%;">
+<p><img src="rating_distribution.png" class="img-fluid" style="width:95.0%"> <em>Rating Count</em></p>
+</div><div class="column" style="width:33%;">
+<p><img src="avg_rating_by_weekday.png" class="img-fluid" style="width:100.0%"><br>
+<em>Avg Rating by Weekday</em></p>
+</div><div class="column" style="width:33%;">
+<p><img src="avg_rating_by_month.png" class="img-fluid" style="width:100.0%"><br>
+<em>Avg Rating by Month</em></p>
+</div>
+</div>
+</section>
+</section>
+<section id="feature-insights" class="level2">
+<h2 class="anchored" data-anchor-id="feature-insights">Feature Insights</h2>
+<ul>
+<li>Key predictors:
+<ul>
+<li><code>n_ingredients</code><br>
+</li>
+<li><code>n_steps</code><br>
+</li>
+<li><code>minutes</code><br>
+</li>
+<li><code>weekday</code>, <code>month</code> (one-hot encoded)</li>
+</ul></li>
+<li>Correlation heatmaps showed moderate impact from steps/ingredients and minimal impact from IDs</li>
+</ul>
+<div class="text-center">
+<p><img src="correlation_matrix.png" class="img-fluid" style="width:50.0%"></p>
+</div>
+</section>
+<section id="modeling-pipeline" class="level2">
+<h2 class="anchored" data-anchor-id="modeling-pipeline">Modeling Pipeline</h2>
+<section id="baseline-average-rating" class="level3">
+<h3 class="anchored" data-anchor-id="baseline-average-rating">1. Baseline (Average Rating)</h3>
+<p>RMSE: <code>1.3468</code></p>
+</section>
+<section id="ridge-regression" class="level3">
+<h3 class="anchored" data-anchor-id="ridge-regression">2. Ridge Regression</h3>
+<ul>
+<li>Slight improvement<br>
+</li>
+<li>Best RMSE: <code>1.3465</code> (validation)</li>
+</ul>
+</section>
+<section id="random-forest" class="level3">
+<h3 class="anchored" data-anchor-id="random-forest">3. Random Forest</h3>
+<ul>
+<li>RMSE: <code>1.3464</code><br>
+</li>
+<li>Better than Ridge, but still minor gains</li>
+</ul>
+</section>
+<section id="matrix-factorization-sgd" class="level3">
+<h3 class="anchored" data-anchor-id="matrix-factorization-sgd">4. Matrix Factorization (SGD)</h3>
+<ul>
+<li>Best performing model<br>
+</li>
+<li>Validation RMSE: 0.6663 at k=9</li>
+</ul>
+</section>
+</section>
+<section id="evaluation" class="level2">
+<h2 class="anchored" data-anchor-id="evaluation">Evaluation</h2>
+<ul>
+<li>Matrix Factorization significantly outperforms traditional baselines</li>
+<li>Most useful features: number of ingredients, steps, and time</li>
+<li>IDs had little to no contribution beyond matrix factorization</li>
+</ul>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>This project demonstrates how collaborative filtering techniques like Matrix Factorization can be effectively applied to recipe rating predictions. The strong performance (RMSE ~0.66) highlights its value for personalized recommendations.</p>
+<blockquote class="blockquote">
+<p>Future work could integrate content-based features like ingredients or cuisine types to enhance recommendations.</p>
+</blockquote>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

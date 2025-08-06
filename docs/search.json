@@ -147,6 +147,48 @@
     "text": "Download PDF file."
   },
   {
+    "objectID": "projects/predictive_model/index.html",
+    "href": "projects/predictive_model/index.html",
+    "title": "Recipe Rating Predictive Model",
+    "section": "",
+    "text": "This project builds a personalized recipe recommendation system using real user ratings from Food.com. With over 230,000 recipes and 700,000+ user interactions, the goal was to predict ratings and recommend the best recipes using machine learning — particularly Matrix Factorization.\nDownload Full Report (PDF)"
+  },
+  {
+    "objectID": "projects/predictive_model/index.html#summary",
+    "href": "projects/predictive_model/index.html#summary",
+    "title": "Recipe Rating Predictive Model",
+    "section": "",
+    "text": "This project builds a personalized recipe recommendation system using real user ratings from Food.com. With over 230,000 recipes and 700,000+ user interactions, the goal was to predict ratings and recommend the best recipes using machine learning — particularly Matrix Factorization.\nDownload Full Report (PDF)"
+  },
+  {
+    "objectID": "projects/predictive_model/index.html#dataset-summary",
+    "href": "projects/predictive_model/index.html#dataset-summary",
+    "title": "Recipe Rating Predictive Model",
+    "section": "Dataset Summary",
+    "text": "Dataset Summary\n\nRecipes: 231,637\nUser interactions: ~700,000\n\nSplit:\n\nTrain: 689,901 rows\n\nValidation: 7,023 rows\n\nTest: 12,455 rows\n\n\n\nKey Columns\n\n\n\nColumn\nDescription\n\n\n\n\nuser_id\nUnique user identifier\n\n\nrecipe_id\nUnique recipe identifier\n\n\nrating\nRating given (1–5)\n\n\ndate\nWhen the rating was given"
+  },
+  {
+    "objectID": "projects/predictive_model/index.html#exploratory-data-analysis",
+    "href": "projects/predictive_model/index.html#exploratory-data-analysis",
+    "title": "Recipe Rating Predictive Model",
+    "section": "Exploratory Data Analysis",
+    "text": "Exploratory Data Analysis\n\nRating Distribution\n\nMajority of ratings are positive (5 stars)\nHigher ratings occur on weekends, especially Sundays\nJune has the highest average rating, while February is lowest\n\n\n\n Rating Count\n\n\nAvg Rating by Weekday\n\n\nAvg Rating by Month"
+  },
+  {
+    "objectID": "projects/predictive_model/index.html#feature-insights",
+    "href": "projects/predictive_model/index.html#feature-insights",
+    "title": "Recipe Rating Predictive Model",
+    "section": "Feature Insights",
+    "text": "Feature Insights\n\nKey predictors:\n\nn_ingredients\n\nn_steps\n\nminutes\n\nweekday, month (one-hot encoded)\n\nCorrelation heatmaps showed moderate impact from steps/ingredients and minimal impact from IDs"
+  },
+  {
+    "objectID": "projects/predictive_model/index.html#modeling-pipeline",
+    "href": "projects/predictive_model/index.html#modeling-pipeline",
+    "title": "Recipe Rating Predictive Model",
+    "section": "Modeling Pipeline",
+    "text": "Modeling Pipeline\n\n1. Baseline (Average Rating)\nRMSE: 1.3468\n\n\n2. Ridge Regression\n\nSlight improvement\n\nBest RMSE: 1.3465 (validation)\n\n\n\n3. Random Forest\n\nRMSE: 1.3464\n\nBetter than Ridge, but still minor gains\n\n\n\n4. Matrix Factorization (SGD)\n\nBest performing model\n\nValidation RMSE: 0.6663 at k=9"
+  },
+  {
     "objectID": "projects/capstone/index.html",
     "href": "projects/capstone/index.html",
     "title": "Media Planning Optimization for TVision",
@@ -264,5 +306,26 @@
     "title": "Emma Wu",
     "section": "Experience",
     "text": "Experience\n\n\n\n\nBusiness Analyst TVision (March 2025 – June 2025)\n\nConducted attention and audience analysis across CTV and Linear platforms using 10,000+ rows of historical data, developed predictive models to forecast attentive viewing rates, and delivered a interactive Tableau dashboard to optimize media planning and measure incremental campaign reach.\n\n\n\n\n\nData Analyst Internship MIRDC - Optical & Semiconductor Equipment Industry Office (Sep 2023 – June 2024)\n\nTransformed raw datasets into insights, built 50+ visualizations, and supported bilingual client communication across 20+ accounts.\n\n\n\n\n\nStudent Tutor Qing-Xue Language & Science Learning School (Sep 2020 – Jun 2024)\n\nPresented academic outcomes to clients, streamlined communication between students and teachers, and supported 80% of students in improving their grades."
+  },
+  {
+    "objectID": "projects/predictive_model/index.html#evaluation-takeaways",
+    "href": "projects/predictive_model/index.html#evaluation-takeaways",
+    "title": "Recipe Rating Predictive Model",
+    "section": "Evaluation & Takeaways",
+    "text": "Evaluation & Takeaways\n\nMatrix Factorization significantly outperforms traditional baselines\nMost useful features: number of ingredients, steps, and time\nIDs had little to no contribution beyond matrix factorization"
+  },
+  {
+    "objectID": "projects/predictive_model/index.html#conclusion",
+    "href": "projects/predictive_model/index.html#conclusion",
+    "title": "Recipe Rating Predictive Model",
+    "section": "Conclusion",
+    "text": "Conclusion\nThis project demonstrates how collaborative filtering techniques like Matrix Factorization can be effectively applied to recipe rating predictions. The strong performance (RMSE ~0.66) highlights its value for personalized recommendations.\n\nFuture work could integrate content-based features like ingredients or cuisine types to enhance recommendations."
+  },
+  {
+    "objectID": "projects/predictive_model/index.html#evaluation",
+    "href": "projects/predictive_model/index.html#evaluation",
+    "title": "Recipe Rating Predictive Model",
+    "section": "Evaluation",
+    "text": "Evaluation\n\nMatrix Factorization significantly outperforms traditional baselines\nMost useful features: number of ingredients, steps, and time\nIDs had little to no contribution beyond matrix factorization"
   }
 ]
