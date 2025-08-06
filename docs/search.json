@@ -4,7 +4,7 @@
     "href": "blog.html",
     "title": "My Projects",
     "section": "",
-    "text": "Card Transition Report\n\n\n\nPython\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSentiment Analysis of Sephora Product Reviews\n\n\n\nPython\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAirline Operations & Passenger Satisfaction Analysis\n\n\n\nPython\n\n\nTableau\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExploring Consumer Behaviors between Eastern and Western Countries\n\n\n\nPython\n\n\nSmartPLS\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Media Planning Optimization for TVision\n\n\n\nPython\n\n\nTableau\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCard Transition Report\n\n\n\nPython\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSentiment Analysis of Sephora Product Reviews\n\n\n\nPython\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAirline Operations & Passenger Satisfaction Analysis\n\n\n\nPython\n\n\nTableau\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRecipe Rating Predictive Model\n\n\n\nPython\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExploring Consumer Behaviors between Eastern and Western Countries\n\n\n\nPython\n\n\nSmartPLS\n\n\nExcel\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/sentiment_analysis/index.html",
@@ -105,13 +105,6 @@
     "text": "Results\n\nReliability & Validity\nAll constructs in both groups meet the thresholds for:\n\nReliability: Cronbach’s alpha and composite reliability &gt; 0.7\n\nConvergent Validity: AVE &gt; 0.5\n\nExplanatory Power: R² values range between 0.33 and 0.67, indicating moderate predictive strength\n\nEastern\n\n\n\nFactor\nCronbach’s Alpha\nComposite Reliability\nAVE\nR²\n\n\n\n\nEC\n.843\n.905\n.761\n—\n\n\nVE\n.826\n.896\n.743\n.544\n\n\nBA\n.901\n.925\n.713\n.509\n\n\nIP\n.918\n.938\n.713\n.759\n\n\n\nWestern\n\n\n\nFactor\nCronbach’s Alpha\nComposite Reliability\nAVE\nR²\n\n\n\n\nEC\n.843\n.906\n.762\n—\n\n\nVE\n.783\n.874\n.700\n.374\n\n\nBA\n.909\n.931\n.731\n.428\n\n\nIP\n.873\n.913\n.724\n.614\n\n\n\n\n\n\nDiscriminant Validity\nTo confirm that constructs are distinct from one another, discriminant validity was assessed using the Fornell-Larcker criterion.\nDiagonal values (in bold) represent the square root of AVE, which should be greater than inter-construct correlations.\nEastern\n\n\n\n\nBA\nEC\nIP\nVE\n\n\n\n\nBA\n.844\n\n\n\n\n\nEC\n.714\n.873\n\n\n\n\nIP\n.811\n.754\n.868\n\n\n\nVE\n.750\n.737\n.772\n.862\n\n\n\nWestern\n\n\n\n\nBA\nEC\nIP\nVE\n\n\n\n\nBA\n.855\n\n\n\n\n\nEC\n.639\n.873\n\n\n\n\nIP\n.775\n.579\n.851\n\n\n\nVE\n.776\n.601\n.643\n.836\n\n\n\n\n\nTop influencing factor:\nBrand ESG awareness strongly predicts sustainable fashion intent, especially in the US group.\nOther findings:\n\nTaiwanese consumers show slightly higher environmental consciousness.\nAmerican consumers are more influenced by ESG brand messaging.\nSome cultural moderators (e.g., power distance) were not statistically significant."
   },
   {
-    "objectID": "resume.html",
-    "href": "resume.html",
-    "title": "Resume",
-    "section": "",
-    "text": "Download PDF file."
-  },
-  {
     "objectID": "projects/card_transition/index.html",
     "href": "projects/card_transition/index.html",
     "title": "Card Transition Report",
@@ -145,6 +138,48 @@
     "title": "Card Transition Report",
     "section": "Method Summary",
     "text": "Method Summary\n\nCleaned and filtered raw data (removed outliers)\nEngineered 4000+ features (velocity, ratio, digit-based, etc.)\nSelected top 20 features via forward selection (CatBoost)\nCompared 5 models → XGBoost outperformed others\nIdentified cutoff threshold using financial value curves"
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "Download PDF file."
+  },
+  {
+    "objectID": "projects/capstone/index.html",
+    "href": "projects/capstone/index.html",
+    "title": "Media Planning Optimization for TVision",
+    "section": "",
+    "text": "This project was conducted in partnership with TVision, a leader in TV audience measurement, as part of the Rady MSBA Capstone. The goal was to design a media planning tool that helps advertisers maximize incremental reach by selecting optimal combinations of Linear TV and Connected TV (CTV) ad placements.\nDownload Full Presentation (PDF)"
+  },
+  {
+    "objectID": "projects/capstone/index.html#summary",
+    "href": "projects/capstone/index.html#summary",
+    "title": "Media Planning Optimization for TVision",
+    "section": "",
+    "text": "This project was conducted in partnership with TVision, a leader in TV audience measurement, as part of the Rady MSBA Capstone. The goal was to design a media planning tool that helps advertisers maximize incremental reach by selecting optimal combinations of Linear TV and Connected TV (CTV) ad placements.\nDownload Full Presentation (PDF)"
+  },
+  {
+    "objectID": "projects/capstone/index.html#objectives",
+    "href": "projects/capstone/index.html#objectives",
+    "title": "Media Planning Optimization for TVision",
+    "section": "Objectives",
+    "text": "Objectives\n\nEvaluate historic campaign performance using TVision panel data\nBuild forecasting models for future campaign reach\nRecommend optimal media strategies based on advertiser goals"
+  },
+  {
+    "objectID": "projects/capstone/index.html#problem-context",
+    "href": "projects/capstone/index.html#problem-context",
+    "title": "Media Planning Optimization for TVision",
+    "section": "Problem Context",
+    "text": "Problem Context\nAs audiences increasingly shift from traditional linear TV to CTV platforms (like Netflix, Hulu, and YouTube), advertisers face challenges in avoiding redundant reach and budget waste. Planners need tools that:\n\nQuantify overlap in reach between platforms\nPredict incremental reach from CTV after a linear TV campaign\nSuggest cost-effective strategies by adjusting allocation across networks and apps"
+  },
+  {
+    "objectID": "projects/capstone/index.html#data-overview",
+    "href": "projects/capstone/index.html#data-overview",
+    "title": "Media Planning Optimization for TVision",
+    "section": "Data Overview",
+    "text": "Data Overview\nTVision provided campaign data from 5 recent quarters, including:\n\nAd impressions on linear and CTV platforms\nTimestamps (day, time, duration)\nViewer demographics and attention signals\nPlatform metadata (network/app ID)\n\n\n\n\nField\nDescription\n\n\n\n\nViewer_ID\nUnique anonymous viewer\n\n\nChannel/Platform\nLinear TV or CTV app\n\n\nAd_Timestamp\nDate + time of ad view\n\n\nAttention_Flag\nViewer was attentive (Yes/No)\n\n\nCampaign_ID\nUnique campaign strategy identifier\n\n\nTarget_Demographic\nAge, gender, household metadata"
   },
   {
     "objectID": "projects/airline/index.html",

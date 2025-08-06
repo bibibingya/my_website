@@ -1,1 +1,59 @@
 /* css styles */
+.quarto-grid-item {
+    border: none;
+    background: none;
+    box-shadow: none;
+    padding: 0;
+  }
+  
+  /* Center-align everything */
+  .quarto-grid-item .card {
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Project title styling */
+  .quarto-grid-item .card-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #123456; /* optional: set a theme-consistent color */
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Make category tags subtle */
+  .quarto-grid-item .card-body .listing-categories .listing-category {
+    font-size: 0.75rem;
+    background-color: #eef2f4;
+    color: #444;
+    border: none;
+    padding: 2px 6px;
+    border-radius: 3px;
+  }
+
+  .quarto-grid-item {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+  
+  /* Project description */
+  .quarto-grid-item .card-text {
+    color: #333;
+    font-size: 0.9rem;
+    max-width: 250px;
+    margin: 0 auto;
+  }
+  
+  /* Optional: space between projects */
+  .quarto-grid {
+    row-gap: 2rem;
+  }
+
+  .quarto-grid-item:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); 
+    background-color: #f9fbfe; /* 可選：hover 時變背景色 */
+    border-radius: 8px;
+  }
+
+  .quarto-grid-item:hover {
+    border: 1px solid #d0e6ff;
+  }

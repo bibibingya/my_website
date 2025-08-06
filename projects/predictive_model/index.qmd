@@ -1,0 +1,6 @@
+---
+title: "Recipe Rating Predictive Model"
+author: Emma Wu
+date: 2024-11-14
+categories: [Python]
+---

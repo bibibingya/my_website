@@ -2,7 +2,7 @@
 title: "Exploring Consumer Behaviors between Eastern and Western Countries"
 author: Emma Wu
 date: 2024-04-01
-categories: [Python, SmartPLS]
+categories: [Python, SmartPLS, Excel]
 ---
 ## Summary
 

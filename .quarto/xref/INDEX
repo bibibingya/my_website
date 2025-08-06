@@ -73,5 +73,11 @@
   },
   "projects/airline/index.qmd": {
     "index.html": "daa2d5fb"
+  },
+  "projects/predictive_model/index.qmd": {
+    "index.html": "7549f368"
+  },
+  "projects/capstone/index.qmd": {
+    "index.html": "1a602319"
   }
 }

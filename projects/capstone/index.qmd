@@ -1,0 +1,44 @@
+---
+title: "Media Planning Optimization for TVision"
+author: Emma Wu
+date: 2025-06-14
+categories: [Python, Tableau]
+---
+## Summary
+
+This project was conducted in partnership with TVision, a leader in TV audience measurement, as part of the Rady MSBA Capstone. The goal was to design a media planning tool that helps advertisers maximize incremental reach by selecting optimal combinations of Linear TV and Connected TV (CTV) ad placements.
+
+[Download Full Presentation (PDF)](capstone.pdf)
+
+## Objectives
+
+- Evaluate historic campaign performance using TVision panel data
+- Build forecasting models for future campaign reach
+- Recommend optimal media strategies based on advertiser goals
+
+## Problem Context
+
+As audiences increasingly shift from traditional linear TV to CTV platforms (like Netflix, Hulu, and YouTube), advertisers face challenges in avoiding redundant reach and budget waste. Planners need tools that:
+
+- Quantify overlap in reach between platforms
+- Predict **incremental reach** from CTV after a linear TV campaign
+- Suggest cost-effective strategies by adjusting allocation across networks and apps
+
+
+## Data Overview
+
+TVision provided campaign data from **5 recent quarters**, including:
+
+- Ad impressions on linear and CTV platforms
+- Timestamps (day, time, duration)
+- Viewer demographics and attention signals
+- Platform metadata (network/app ID)
+
+| Field                    | Description                              |
+|-------------------------|------------------------------------------|
+| `Viewer_ID`             | Unique anonymous viewer                  |
+| `Channel/Platform`      | Linear TV or CTV app                     |
+| `Ad_Timestamp`          | Date + time of ad view                   |
+| `Attention_Flag`        | Viewer was attentive (Yes/No)            |
+| `Campaign_ID`           | Unique campaign strategy identifier      |
+| `Target_Demographic`    | Age, gender, household metadata          |
