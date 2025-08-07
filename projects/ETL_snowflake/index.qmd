@@ -1,0 +1,22 @@
+---
+title: "ETL with Snowflake and Python"
+author: Emma Wu
+date: 2024-09-12
+categories: [Python, SQL]
+---
+## Summary
+Built an end-to-end data pipeline using Python and Snowflake to extract, stage, transform, and analyze data from diverse sources (CSV, XML, PostgreSQL, Cybersyn NOAA).
+
+[Download Codebook (.ipynb)](https://drive.google.com/file/d/106sWGznJksgdVveoFmI01F9Z4F_WcjK4/view?usp=share_link)
+
+## Key Insights
+- Enabled clear identification of invoice discrepancies between purchase orders and billed amounts.
+- Found no direct correlation between extreme weather conditions and billing discrepancies; however, the pipeline facilitates future, deeper analysis.
+- Optimized performance by conducting transformations directly within Snowflake using SQL rather than Python scripts.
+
+## Technical Highlights
+- Automated complex data integration from multiple formats into a centralized warehouse.
+- Achieved efficiency through Snowflake's bulk loading features (COPY INTO).
+
+## Tools & Techniques
+Python, Snowflake, PostgreSQL, SQL transformations

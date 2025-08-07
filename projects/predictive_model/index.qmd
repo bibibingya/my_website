@@ -8,7 +8,7 @@ categories: [Python]
 
 This project builds a personalized recipe recommendation system using real user ratings from [Food.com](https://www.food.com). With over 230,000 recipes and 700,000+ user interactions, the goal was to predict ratings and recommend the best recipes using machine learning — particularly **Matrix Factorization**.
 
-[Download Full Report (PDF)](recipe_rating_predict.pdf.pdf)
+[Download Full Report (PDF)](recipe_rating_predict.pdf)
 
 ## Dataset Summary
 

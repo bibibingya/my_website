@@ -79,5 +79,14 @@
   },
   "projects/capstone/index.qmd": {
     "index.html": "1a602319"
+  },
+  "projects/ETL_snowflake/index.qmd": {
+    "index.html": "a6b6de1d"
+  },
+  "projects/ETL_snowflake/etl_snowflake.ipynb": {
+    "etl_snowflake.html": "2599a97a"
+  },
+  "projects/uplift/index.qmd": {
+    "index.html": "58aba7a3"
   }
 }
